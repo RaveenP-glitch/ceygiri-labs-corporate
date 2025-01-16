@@ -24,10 +24,10 @@ const Hero1 = () => {
             data-aos="fade-up"
           >
             <h1 className="hero-heading fw-500 tx-dark">
-              Everything for your <span>Home</span> &amp; Future.
+              Empower your <span>Growth</span> with our <span>Services.</span>
             </h1>
             <p className="text-lg tx-dark mt-45 mb-50 lg-mt-30 lg-mb-40">
-              Instant everything. Incredible prices. Big heart.
+              Trust Our Best IT Solutions For Your Business
             </p>
             <form
               className="search-area d-md-inline-flex m-auto"
@@ -54,7 +54,7 @@ const Hero1 = () => {
             <div>
               <div className="approval-info d-inline-flex align-items-center mt-130 lg-mt-80">
                 <img src="/images/icon/icon_99.svg" alt="" className="me-1" />
-                <span>An UK insurer approved by the UICO.</span>
+                <span>Bringing you tech solutions from the beautiful island of Sri Lanka.</span>
               </div>
             </div>
           </div>
