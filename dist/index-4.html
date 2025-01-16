@@ -1,0 +1,657 @@
+	<!DOCTYPE html>
+	<html lang="en" class=" scroll-smooth">
+		<head>
+			<meta charset="UTF-8">
+			<meta name="keywords" content="Digital marketing agency, Digital marketing company, Digital marketing services">
+			<meta name="description" content="Jano creative multipurpose is a beautiful website template designed for SEO & Digital Agency websites.">
+		<meta property="og:site_name" content="Jano">
+		<meta property="og:url" content="https://heloshape.com/">
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="Jano - Creative Multipurpose Tailwind CSS Template">
+			<meta name='og:image' content='images/assets/ogg.png'>
+			<!-- For IE -->
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<!-- For Resposive Device -->
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<!-- For Window Tab Color -->
+			<!-- Chrome, Firefox OS and Opera -->
+			<meta name="theme-color" content="#1d2b40">
+			<!-- Windows Phone -->
+			<meta name="msapplication-navbutton-color" content="#1d2b40">
+			<!-- iOS Safari -->
+			<meta name="apple-mobile-web-app-status-bar-style" content="#1d2b40">
+			<title>Personal Portfolio || Jano - Creative Multipurpose Tailwind CSS Template</title>
+			<!-- Favicon -->
+			<link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/icon.png">
+			<!-- Main style sheet -->
+			<link rel="stylesheet" type="text/css" href="./fonts/recoleta/stylesheet.css" media="all">
+			<link rel="stylesheet" type="text/css" href="./fonts/gordita/stylesheet.css" media="all">
+			<link rel="stylesheet" type="text/css" href="./fonts/eustache/stylesheet.css" media="all">
+			<link rel="stylesheet" type="text/css" href="./fonts/noteworthy/style.css" media="all">
+			<link rel="stylesheet" type="text/css" href="./fonts/bootstrap-icons/font-css.css" media="all">
+			<link rel="stylesheet" type="text/css" href="./fonts/font-awesome/css/all.min.css" media="all">
+			<link rel="stylesheet" type="text/css" href="./vendor/fancybox/dist/jquery.fancybox.min.css" media="all">
+			<link rel="stylesheet" type="text/css" href="./vendor/slick/slick.css" media="all">
+			<link rel="stylesheet" type="text/css" href="./vendor/wow/animate.css" media="all">
+			<link rel="stylesheet" type="text/css" href="./css/custom-animation.css" media="all">
+			<link rel="stylesheet" type="text/css" href="./vendor/nice-select/nice-select.css" media="all">
+			<link rel="stylesheet" type="text/css" href="./css/style.css"> 
+
+			<!-- Fix Internet Explorer ______________________________________-->
+			<!--[if lt IE 9]>
+				<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+				<script src="vendor/html5shiv.js"></script>
+				<script src="vendor/respond.js"></script>
+			<![endif]-->	
+		</head>
+
+		<body data-bs-spy="scroll" data-bs-target=".theme-main-menu" data-bs-offset="150" tabindex="0">
+			<div class="main-page-wrapper overflow-x-hidden">
+
+				<!-- ===================================================
+					Loading Transition 
+				==================================================== -->
+
+				<div id="preloader">
+					<div id="ctn-preloader" class="ctn-preloader items-center flex h-full justify-center fixed w-full z-[999999] left-0 top-0 bg-white">
+						<div class="animation-preloader absolute z-[100] text-center">
+							<div class="icon inline-block relative">
+								<img src="images/logo/logo_01.svg" alt="" class="m-auto block animate-[rotated_12s_infinite_linear]" width="40"></div>
+							<div class="txt-loading mt-3 select-none">
+								<span data-text-preloader="J" class="letters-loading font-bold tracking-[12px] inline-block text-[rgb(255_50_148_/_20%)] relative text-[35px] leading-[30px] font-Recoleta before:animate-[letters-loading_4s_infinite] before:text-[color:var(--prime-ten)] before:content-[attr(data-text-preloader)] before:opacity-0 before:leading-[30px] before:absolute before:left-0 before:top-0">
+									J
+								</span>
+								<span data-text-preloader="A" class="letters-loading font-bold tracking-[12px] inline-block text-[rgb(255_50_148_/_20%)] relative text-[35px] leading-[30px] font-Recoleta before:animate-[letters-loading_4s_infinite] before:text-[color:var(--prime-ten)] before:content-[attr(data-text-preloader)] before:opacity-0 before:leading-[30px] before:absolute before:left-0 before:top-0">
+									A
+								</span>
+								<span data-text-preloader="N" class="letters-loading font-bold tracking-[12px] inline-block text-[rgb(255_50_148_/_20%)] relative text-[35px] leading-[30px] font-Recoleta before:animate-[letters-loading_4s_infinite] before:text-[color:var(--prime-ten)] before:content-[attr(data-text-preloader)] before:opacity-0 before:leading-[30px] before:absolute before:left-0 before:top-0">
+									N
+								</span>
+								<span data-text-preloader="O" class="letters-loading font-bold tracking-[12px] inline-block text-[rgb(255_50_148_/_20%)] relative text-[35px] leading-[30px] font-Recoleta before:animate-[letters-loading_4s_infinite] before:text-[color:var(--prime-ten)] before:content-[attr(data-text-preloader)] before:opacity-0 before:leading-[30px] before:absolute before:left-0 before:top-0">
+									O
+								</span>
+							</div>
+						</div>	
+					</div>
+				</div>
+
+				<!-- 
+				=============================================
+					Sidebar Nav 
+				============================================== 
+				-->
+
+				<div class="offcanvas offcanvas-end sidebar-nav flex flex-col w-[400px] max-h-full overflow-y-auto p-[40px_40px_20px] border-0 " tabindex="-1" id="offcanvasRight">
+					<div class="offcanvas-header flex items-center justify-between p-0">
+					<div class="logo"><a href="index.html" class="block"><img src="images/logo/logo_04.png" alt="" width="90"></a></div>
+					<button type="button" class="close-btn tran3s text-[20px] text-black hover:text-[color:var(--prime-ten)]" data-bs-dismiss="offcanvas" aria-label="Close"><i class="bi bi-x-lg"></i></button>
+					</div>
+					
+					<div class="sidebar-nav-item p-[75px_0_70px]">
+						<ul class="style-none mb-0 pl-0 ">
+							<li class="nav-item">
+								<a class="dropdown-toggle text-[20px] leading-[2.5em] text-[color:var(--heading)] font-medium relative transition-all duration-[0.3s] ease-[ease-in-out] pr-[25px] after:hidden before:content-['+'] before:absolute before:text-[21px] before:transition-transform before:duration-[0.3s] before:ease-[ease-in-out] before:m-0 before:border-0 before:right-0 before:top-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">Home</a>
+								<ul class="dropdown-menu !static p-[10px_0] border-0 !scale-100 bg-[#eefbfa]">
+								<li><a href="index.html" class="dropdown-item text-[17px] leading-[44px] text-black capitalize transition-all duration-[0.3s] ease-[ease-in-out] px-[15px] py-0 hover:text-[color:var(--prime-ten)] bg-transparent block w-full clear-both font-normal whitespace-nowrap border-0"><span>insurance</span></a></li>
+									<li><a href="index-7.html" class="dropdown-item text-[17px] leading-[44px] text-black capitalize transition-all duration-[0.3s] ease-[ease-in-out] px-[15px] py-0 hover:text-[color:var(--prime-ten)] bg-transparent block w-full clear-both font-normal whitespace-nowrap border-0"><span>Web Hosting</span></a></li>
+									<li><a href="index-12.html" class="dropdown-item text-[17px] leading-[44px] text-black capitalize transition-all duration-[0.3s] ease-[ease-in-out] px-[15px] py-0 hover:text-[color:var(--prime-ten)] bg-transparent block w-full clear-both font-normal whitespace-nowrap border-0"><span>Education</span></a></li>
+									<li><a href="index-5.html" class="dropdown-item text-[17px] leading-[44px] text-black capitalize transition-all duration-[0.3s] ease-[ease-in-out] px-[15px] py-0 hover:text-[color:var(--prime-ten)] bg-transparent block w-full clear-both font-normal whitespace-nowrap border-0"><span>N.P. Charity</span></a></li>
+									<li><a href="index-13.html" class="dropdown-item text-[17px] leading-[44px] text-black capitalize transition-all duration-[0.3s] ease-[ease-in-out] px-[15px] py-0 hover:text-[color:var(--prime-ten)] bg-transparent block w-full clear-both font-normal whitespace-nowrap border-0"><span>Real Estate</span></a></li>
+									<li><a href="index-2.html" class="dropdown-item text-[17px] leading-[44px] text-black capitalize transition-all duration-[0.3s] ease-[ease-in-out] px-[15px] py-0 hover:text-[color:var(--prime-ten)] bg-transparent block w-full clear-both font-normal whitespace-nowrap border-0"><span>Sass Product</span></a></li>
+									<li><a href="index-3.html" class="dropdown-item text-[17px] leading-[44px] text-black capitalize transition-all duration-[0.3s] ease-[ease-in-out] px-[15px] py-0 hover:text-[color:var(--prime-ten)] bg-transparent block w-full clear-both font-normal whitespace-nowrap border-0"><span>App Landing</span></a></li>
+									<li><a href="index-8.html" class="dropdown-item text-[17px] leading-[44px] text-black capitalize transition-all duration-[0.3s] ease-[ease-in-out] px-[15px] py-0 hover:text-[color:var(--prime-ten)] bg-transparent block w-full clear-both font-normal whitespace-nowrap border-0"><span>Crypto</span></a></li>
+									<li><a href="index-4.html" class="dropdown-item text-[17px] leading-[44px] text-black capitalize transition-all duration-[0.3s] ease-[ease-in-out] px-[15px] py-0 hover:text-[color:var(--prime-ten)] bg-transparent block w-full clear-both font-normal whitespace-nowrap border-0"><span>Personal Portfolio</span></a></li>
+									<li><a href="index-10.html" class="dropdown-item text-[17px] leading-[44px] text-black capitalize transition-all duration-[0.3s] ease-[ease-in-out] px-[15px] py-0 hover:text-[color:var(--prime-ten)] bg-transparent block w-full clear-both font-normal whitespace-nowrap border-0"><span>Agency Modern</span></a></li>
+									<li><a href="index-6.html" class="dropdown-item text-[17px] leading-[44px] text-black capitalize transition-all duration-[0.3s] ease-[ease-in-out] px-[15px] py-0 hover:text-[color:var(--prime-ten)] bg-transparent block w-full clear-both font-normal whitespace-nowrap border-0"><span>SEO & Digital Agency</span></a></li>
+									<li><a href="index-11.html" class="dropdown-item text-[17px] leading-[44px] text-black capitalize transition-all duration-[0.3s] ease-[ease-in-out] px-[15px] py-0 hover:text-[color:var(--prime-ten)] bg-transparent block w-full clear-both font-normal whitespace-nowrap border-0"><span>Design Agency</span></a></li>
+									<li><a href="index-9.html" class="dropdown-item text-[17px] leading-[44px] text-black capitalize transition-all duration-[0.3s] ease-[ease-in-out] px-[15px] py-0 hover:text-[color:var(--prime-ten)] bg-transparent block w-full clear-both font-normal whitespace-nowrap border-0"><span>Lead Generation</span></a></li>
+								</ul>
+							</li>
+							<li class="nav-item"><a class=" text-[20px] leading-[2.5em] text-[color:var(--heading)] font-medium relative transition-all duration-[0.3s] ease-[ease-in-out] pr-[25px]" href="about-v1.html">About Us</a></li>
+							<li class="nav-item"><a class=" text-[20px] leading-[2.5em] text-[color:var(--heading)] font-medium relative transition-all duration-[0.3s] ease-[ease-in-out] pr-[25px]" href="service-v1.html">Services</a></li>
+							<li class="nav-item"><a class=" text-[20px] leading-[2.5em] text-[color:var(--heading)] font-medium relative transition-all duration-[0.3s] ease-[ease-in-out] pr-[25px]" href="portfolio-v1.html">Portfolio</a></li>
+							<li class="nav-item"><a class=" text-[20px] leading-[2.5em] text-[color:var(--heading)] font-medium relative transition-all duration-[0.3s] ease-[ease-in-out] pr-[25px]" href="blog-v1.html">News</a></li>
+							<li class="nav-item"><a class=" text-[20px] leading-[2.5em] text-[color:var(--heading)] font-medium relative transition-all duration-[0.3s] ease-[ease-in-out] pr-[25px]" href="contact-us.html">Contact us</a></li>
+						</ul>
+					</div>
+
+					<ul class="flex social-icon style-none mb-0 pl-0 mt-auto">
+						<li><a class="text-[19px] text-[rgba(0,0,0,0.5)] transition-all duration-[0.3s] ease-[ease-in-out] mr-[22px] hover:text-[color:var(--prime-ten)]" href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a class="text-[19px] text-[rgba(0,0,0,0.5)] transition-all duration-[0.3s] ease-[ease-in-out] mr-[22px] hover:text-[color:var(--prime-ten)]" href="#"><i class="fab fa-twitter"></i></a></li>
+						<li><a class="text-[19px] text-[rgba(0,0,0,0.5)] transition-all duration-[0.3s] ease-[ease-in-out] mr-[22px] hover:text-[color:var(--prime-ten)]" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+					</ul>
+					<p class="pt-[10px] text-[15px]">Copyright @2022 janu inc.</p>
+				</div> <!-- /.sidebar-nav -->
+
+				<!-- 
+				=============================================
+					Theme Main Menu 
+				============================================== 
+				-->
+				<header class="theme-main-menu sticky-menu theme-menu-four absolute z-[99] transition-all duration-[0.4s] ease-[ease-out] p-[20px_60px] top-0 inset-x-0 2xl:px-[35px] lg:px-5 md:px-[12px] sm:px-[12px] xsm:px-[12px]">
+					<div class="inner-content relative">
+						<div class="flex items-center justify-between">
+							<div class="logo min-h-[50px] flex items-center xl:order-none lg:order-none"><a href="index.html" class="block"><img src="images/logo/logo_04.png" alt="" width="90"></a></div>
+
+							<div class="right-widget flex items-center ml-[auto] xl:ml-0 lg:ml-0 xl:order-3 lg:order-3">
+								<button class="sidebar-nav-button hidden xl:block lg:block" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><span></span></button>
+							</div> <!-- /.right-widget -->
+
+							<nav class="navbar navbar-expand-lg md:p-0 sm:p-0 xsm:p-0 flex items-center py-2 xl:flex-nowrap xl:justify-start lg:flex-nowrap lg:justify-start xl:order-2 lg:order-2 static flex-wrap justify-between">
+								<button class="navbar-toggler text-[1.25rem] leading-none transition-shadow duration-[0.15s] ease-[ease-in-out] w-11 h-[38px] relative z-[99] block xl:hidden lg:hidden shadow-[0_15px_20px_0px_rgba(0,0,0,0.05)] p-0 border-0 rounded-[.25rem] focus:shadow-none bg-[#815AFF] before:content-[''] before:absolute before:w-[26px] before:h-0.5 before:pointer-events-none before:transition-transform before:duration-[0.25s] before:origin-[50%_50%] before:left-[9px] before:top-2/4 before:bg-white after:content-[''] after:absolute after:w-[26px] after:h-0.5 after:pointer-events-none after:transition-transform after:duration-[0.25s] after:origin-[50%_50%] after:left-[9px] after:top-2/4 after:bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#one-page-nav" aria-controls="one-page-nav" aria-expanded="false" aria-label="Toggle navigation">
+								<span class=" absolute overflow-hidden w-[26px] h-0.5 indent-[200%] transition-opacity duration-[0.25s] -mt-px left-[9px] bg-white"></span>
+								</button>
+							<div class="collapse navbar-collapse basis-full grow items-center md:fixed md:bg-white md:h-screen md:max-h-screen md:overflow-y-auto md:clear-both md:w-80 md:max-w-[calc(100vw_-_60px)] md:z-[9999] md:-translate-x-full md:block md:transition-all md:duration-[0.3s] md:ease-[ease-in-out] md:p-[32px_15px_20px] md:left-0 md:top-0 md:visible
+								sm:fixed sm:bg-white sm:h-screen sm:max-h-screen sm:overflow-y-auto sm:clear-both sm:w-80 sm:max-w-[calc(100vw_-_60px)] sm:z-[9999] sm:-translate-x-full sm:block sm:transition-all sm:duration-[0.3s] sm:ease-[ease-in-out] sm:p-[32px_15px_20px] sm:left-0 sm:top-0 sm:visible
+								xsm:fixed xsm:bg-white xsm:h-screen xsm:max-h-screen xsm:overflow-y-auto xsm:clear-both xsm:w-80 xsm:max-w-[calc(100vw_-_60px)] xsm:z-[9999] xsm:-translate-x-full xsm:block xsm:transition-all xsm:duration-[0.3s] xsm:ease-[ease-in-out] xsm:p-[32px_15px_20px] xsm:left-0 xsm:top-0 xsm:visible" id="one-page-nav">
+								<ul class="navbar-nav xl:flex-row lg:flex-row flex flex-col mb-0 pl-0">
+									<li class="block xl:hidden lg:hidden"><div class="logo"><a href="index.html" class="block"><img src="images/logo/logo_04.png" alt="" width="90"></a></div></li>
+									<li class="nav-item">
+										<a class="nav-link visible block font-medium text-[18px] lg:text-[17px] leading-[initial] text-black transition-all duration-[0.3s] ease-[ease-in-out] m-[0_26px] p-[13px_0] md:text-[16px] md:m-0 md:p-[13px_0] sm:text-[16px] sm:m-0 sm:p-[13px_0] xsm:text-[16px] xsm:m-0 xsm:p-[13px_0] dropdown-toggle whitespace-nowrap" href="#s1">About me</a>
+								</li>
+								<li class="nav-item">
+										<a class="nav-link visible block font-medium text-[18px] lg:text-[17px] leading-[initial] text-black transition-all duration-[0.3s] ease-[ease-in-out] m-[0_26px] p-[13px_0] md:text-[16px] md:m-0 md:p-[13px_0] sm:text-[16px] sm:m-0 sm:p-[13px_0] xsm:text-[16px] xsm:m-0 xsm:p-[13px_0] dropdown-toggle whitespace-nowrap" href="#s2">Services</a>
+								</li>
+								<li class="nav-item">
+										<a class="nav-link visible block font-medium text-[18px] lg:text-[17px] leading-[initial] text-black transition-all duration-[0.3s] ease-[ease-in-out] m-[0_26px] p-[13px_0] md:text-[16px] md:m-0 md:p-[13px_0] sm:text-[16px] sm:m-0 sm:p-[13px_0] xsm:text-[16px] xsm:m-0 xsm:p-[13px_0] dropdown-toggle whitespace-nowrap" href="#s3">Portfolio</a>
+								</li>
+									<li class="nav-item">
+										<a class="nav-link visible block font-medium text-[18px] lg:text-[17px] leading-[initial] text-black transition-all duration-[0.3s] ease-[ease-in-out] m-[0_26px] p-[13px_0] md:text-[16px] md:m-0 md:p-[13px_0] sm:text-[16px] sm:m-0 sm:p-[13px_0] xsm:text-[16px] xsm:m-0 xsm:p-[13px_0] dropdown-toggle whitespace-nowrap" href="#s4">Skill</a>
+								</li>
+								<li class="nav-item">
+										<a class="nav-link visible block font-medium text-[18px] lg:text-[17px] leading-[initial] text-black transition-all duration-[0.3s] ease-[ease-in-out] m-[0_26px] p-[13px_0] md:text-[16px] md:m-0 md:p-[13px_0] sm:text-[16px] sm:m-0 sm:p-[13px_0] xsm:text-[16px] xsm:m-0 xsm:p-[13px_0] dropdown-toggle whitespace-nowrap" href="#s5">Contact</a>
+								</li>
+								</ul>
+							</div>
+							</nav>
+						</div>
+					</div> <!-- /.inner-content -->
+				</header> <!-- /.theme-main-menu -->
+
+
+				
+				<!-- 
+				=============================================
+					Theme Hero Banner 
+				============================================== 
+				-->
+				<div class="hero-banner-four text-center relative max-w-[1574px] z-[1] m-[250px_auto_0] md:mt-[150px] sm:mt-[150px] xsm:mt-[150px]" id="s1">
+					<div class="container">
+						<img src="images/lazy.svg" data-src="images/media/img_26.jpg" alt="" class="lazy-img avatar-img m-auto rounded-[50%] w-[90px] h-[90px] wow fadeInUp">
+						<div class="profile-name text-black text-[24px] 2xl:text-[22px] lg:text-[19px] md:text-[19px] sm:text-[19px] xsm:text-[19px] leading-[1.67em] mt-[35px] mb-5 wow fadeInUp" data-wow-delay="0.1s">Hi, I’m <span class="font-medium">Rashed</span></div>
+						<div class="flex flex-wrap mx-[-12px]">
+							<div class="xxl:w-11/12 xl:w-10/12 lg:w-10/12 md:w-8/12 w-full flex-[0_0_auto] px-[12px] max-w-full m-auto wow fadeInUp" data-wow-delay="0.3s">
+								<h1 class="hero-heading font-medium font-Recoleta text-black mb-[65px] lg:mb-10 md:mb-10 sm:mb-10 xsm:mb-10 text-[120px] 2xl:text-[88px] leading-[1.08em] tracking-[-1px] lg:text-[75px] md:text-[40px] md:leading-[1.2em] md:tracking-[0px] sm:text-[40px] sm:leading-[1.2em] sm:tracking-[0px] xsm:text-[40px] xsm:leading-[1.2em] xsm:tracking-[0px]">Building digital products, brands & expereince</h1>
+							</div>
+							<div class="xl:w-6/12 lg:w-6/12 md:w-8/12 w-full flex-[0_0_auto] px-[12px] max-w-full m-auto wow fadeInUp" data-wow-delay="0.4s">
+								<p class=" text-[24px] 2xl:text-[22px] lg:text-[19px] md:text-[19px] sm:text-[19px] xsm:text-[19px] leading-[1.67em] xxl:!pr-[1.5rem] xxl:!pl-[1.5rem] mb-[75px] lg:mb-[50px] md:mb-[50px] sm:mb-[50px] xsm:mb-[50px] ">Janu is your online team mangement tool that easy and prompt</p>
+							</div>
+						</div>
+						<a href="#s5" class="btn-eight wow fadeInUp text-white leading-[60px] text-[14px] uppercase tracking-[1.65px] relative transition-all duration-[0.3s] ease-[ease-in-out] p-[0_55px] rounded-[30px] bg-[#1B1B1B] hover:bg-[var(--prime-three)] lg:leading-[50px] lg:p-[0_35px] md:leading-[50px] md:p-[0_35px] sm:leading-[50px] sm:p-[0_35px] xsm:leading-[50px] xsm:p-[0_35px]">Contact Me</a>
+					</div> <!-- /.container -->
+					<div class="fancy-img-block fancy-block-one absolute z-[-1] w-[24%] xsm:!hidden left-3 top-0">
+						<div class="r-shape-one absolute w-[67px] h-[134px] rounded-[0_100px_100px_0] left-0 top-0 bg-[#811EFF]"></div>
+						<div class="r-shape-two absolute rounded-[50%] w-[55px] h-[55px] animate-[jumpTwo_4s_infinite_linear] left-[47%] -bottom-2.5 bg-[#00E9AF]"></div>
+						<img src="images/lazy.svg" data-src="images/media/img_27.jpg" alt="" class="lazy-img main-img rounded-[0_200px_0_200px] md:rounded-[0_50px_0_50px] sm:rounded-[0_50px_0_50px] xsm:rounded-[0_50px_0_50px]">
+					</div>
+					<div class="fancy-img-block fancy-block-two absolute z-[-1] w-[24%] xsm:!hidden right-3 bottom-0">
+						<div class="r-shape-three absolute rounded-[50%] w-[46px] h-[46px] top-[-23px] animate-[jumpThree_4s_infinite_linear] left-[53%] bg-[#FF5A8A]"></div>
+						<div class="r-shape-four absolute rounded-[50%] w-[157px] h-[157px] right-[-6%] animate-[jumpFour_3.5s_infinite_linear] bottom-0 bg-[#FFC962]"></div>
+						<img src="images/lazy.svg" data-src="images/media/img_28.jpg" alt="" class="lazy-img main-img rounded-[200px_0_200px_0] md:rounded-[50px_0_50px_0] sm:rounded-[50px_0_50px_0] xsm:rounded-[50px_0_50px_0]">
+					</div>
+					<img src="images/lazy.svg" data-src="images/shape/shape_56.svg" alt="" class="lazy-img shapes shape-one absolute z-[-1] top-[-8%] animate-[jumpThree_4s_infinite_linear] left-[27%]">
+					<img src="images/lazy.svg" data-src="images/shape/shape_57.svg" alt="" class="lazy-img shapes shape-two absolute z-[-1] animate-[jumpTwo_4s_infinite_linear] right-[15%] top-[1%]">
+					<img src="images/lazy.svg" data-src="images/shape/shape_58.svg" alt="" class="lazy-img shapes shape-three absolute z-[-1] bottom-[-3%] animate-[jumpFour_4s_infinite_linear] left-[15%]">
+					<img src="images/lazy.svg" data-src="images/shape/shape_59.svg" alt="" class="lazy-img shapes shape-four absolute z-[-1] bottom-[-11%] animate-[jumpTwo_4s_infinite_linear] right-[26%]">
+				</div> <!-- /.hero-banner-four -->
+
+
+				<!-- 
+				=============================================
+					Feature Section Twelve 
+				============================================== 
+				-->
+				<div class="fancy-feature-twelve relative mt-[300px] xl:mt-[200px] md:mt-[120px] sm:mt-[120px] xsm:mt-[120px] " id="s2">
+					<div class="container">
+						<div class="flex flex-wrap mx-[-12px]">
+							<div class="xl:w-2/12 lg:w-3/12 w-full flex-[0_0_auto] px-[12px] max-w-full text-center wow fadeInLeft">
+								<div class="main-count text-[100px] tracking-[-1px] text-[#815AFF] lg:text-[50px] md:text-[50px] sm:text-[50px] xsm:text-[50px] ">0<span class="counter">7</span>+</div>
+								<h2 class="title font-medium text-black text-[36px] leading-[1.5em] lg:text-[28px] md:text-[28px] sm:text-[28px] xsm:text-[28px] ">Years Experience in field</h2>
+							</div>
+						</div>
+						<div class="block-wrapper absolute -translate-y-2/4 w-[64vw] right-12 top-2/4 2xl:w-[68vw] md:static md:w-full md:transform-none sm:static sm:w-full sm:transform-none xsm:static xsm:w-full xsm:transform-none md:mt-[10px] sm:mt-[10px] xsm:mt-[10px] ">
+							<div class="flex flex-wrap mx-[-12px] xxl:mx-[-24px]">
+								<div class="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] px-[12px] max-w-full wow fadeInUp" data-wow-delay="0.1s">
+									<div class="card-style-six xxl:p-[95px_15px_80px] p-[50px_15px] rounded-[15px] md:mt-[30px] sm:mt-[30px] xsm:mt-[30px] text-center" style="background-color:#EBF8F8;">
+										<div class="icon flex items-end justify-center h-[85px]"><img src="images/lazy.svg" data-src="images/icon/icon_39.svg" alt="" class="lazy-img"></div>
+										<h4 class="text-[24px] 2xl:text-[22px] lg:text-[20px] md:text-[20px] sm:text-[20px] xsm:text-[20px] mt-[55px] lg:mt-[30px] md:mt-[30px] sm:mt-[30px] xsm:mt-[30px]">Product & Brand <br>Designer</h4>
+									</div> <!-- /.card-style-six -->
+								</div>
+								<div class="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] px-[12px] max-w-full wow fadeInUp" data-wow-delay="0.2s">
+									<div class="card-style-six xxl:p-[95px_15px_80px] p-[50px_15px] rounded-[15px] md:mt-[30px] sm:mt-[30px] xsm:mt-[30px] text-center" style="background-color:#FFF8F8;">
+										<div class="icon flex items-end justify-center h-[85px]"><img src="images/lazy.svg" data-src="images/icon/icon_40.svg" alt="" class="lazy-img"></div>
+										<h4 class="text-[24px] 2xl:text-[22px] lg:text-[20px] md:text-[20px] sm:text-[20px] xsm:text-[20px] mt-[55px] lg:mt-[30px] md:mt-[30px] sm:mt-[30px] xsm:mt-[30px]">Coding & <br>Programming</h4>
+									</div> <!-- /.card-style-six -->
+								</div>
+								<div class="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] px-[12px] max-w-full wow fadeInUp" data-wow-delay="0.3s">
+									<div class="card-style-six xxl:p-[95px_15px_80px] p-[50px_15px] rounded-[15px] md:mt-[30px] sm:mt-[30px] xsm:mt-[30px] text-center" style="background-color:#F3F5FF;">
+										<div class="icon flex items-end justify-center h-[85px]"><img src="images/lazy.svg" data-src="images/icon/icon_41.svg" alt="" class="lazy-img"></div>
+										<h4 class="text-[24px] 2xl:text-[22px] lg:text-[20px] md:text-[20px] sm:text-[20px] xsm:text-[20px] mt-[55px] lg:mt-[30px] md:mt-[30px] sm:mt-[30px] xsm:mt-[30px]">Online <br>marketing</h4>
+									</div> <!-- /.card-style-six -->
+								</div>
+							</div>
+						</div> <!-- /.block-wrapper -->
+					</div> <!-- /.container -->
+				</div> <!-- /.fancy-feature-twelve -->
+				
+
+
+				<!-- 
+				=============================================
+					Portfolio Gallery One 
+				============================================== 
+				-->
+				<div class="portfolio-gallery-one relative wow fadeInUp mt-[150px] pt-[100px] xl:pt-[50px] lg:pt-[50px] md:pt-[50px] sm:pt-[50px] xsm:pt-[50px] md:mt-20 sm:mt-20 xsm:mt-20 " id="s3">
+					<img src="images/lazy.svg" data-src="images/shape/shape_60.svg" alt="" class="lazy-img shapes shape-one absolute z-[-1] left-[24%] top-0">
+					<img src="images/lazy.svg" data-src="images/shape/shape_61.svg" alt="" class="lazy-img shapes shape-two absolute z-[-1] left-[4%] top-[190px] xsm:!hidden">
+					<img src="images/lazy.svg" data-src="images/shape/shape_62.svg" alt="" class="lazy-img shapes shape-three absolute z-[-1] left-[41%] top-[190px] xsm:!hidden">
+					<div class="container">
+						<div class="flex flex-wrap mx-[-12px] items-center">
+							<div class="xl:w-4/12 lg:w-4/12 w-full flex-[0_0_auto] px-[12px] max-w-full">
+								<div class="title-style-five text-center xl:text-left lg:text-left md:mb-5 sm:mb-5 xsm:mb-5 ">
+									<h2 class="main-title font-Recoleta font-medium text-black ">My <span class="inline-block relative">Recent <span class="mark-bg" style="background-color:#D9F5F8;"></span></span> Work.</h2>
+								</div> <!-- /.title-style-five -->
+							</div>
+
+							<div class="xl:w-8/12 lg:w-8/12 w-full flex-[0_0_auto] px-[12px] max-w-full">
+								<ul class=" mb-0 pl-0 list-none text-center text-[18px] xl:text-right lg:text-right isotop-menu-wrapper g-control-nav-one">
+									<li class=" text-[20px] tracking-[-0.05px] text-[#C8C8C8] inline-block cursor-pointer transition-all duration-[0.3s] ease-[ease-in-out] ml-[45px] p-[0_5px] lg:text-[18px] lg:ml-[30px_px] md:text-[18px] md:ml-[30px_px] md:m-[8px_5px_0] sm:text-[18px] sm:ml-[30px_px] sm:m-[8px_5px_0] xsm:text-[18px] xsm:ml-[30px_px] xsm:m-[8px_5px_0] is-checked" data-filter="*">All</li>
+									<li class=" text-[20px] tracking-[-0.05px] text-[#C8C8C8] inline-block cursor-pointer transition-all duration-[0.3s] ease-[ease-in-out] ml-[45px] p-[0_5px] lg:text-[18px] lg:ml-[30px_px] md:text-[18px] md:ml-[30px_px] md:m-[8px_5px_0] sm:text-[18px] sm:ml-[30px_px] sm:m-[8px_5px_0] xsm:text-[18px] xsm:ml-[30px_px] xsm:m-[8px_5px_0]" data-filter=".design">Design</li>
+									<li class=" text-[20px] tracking-[-0.05px] text-[#C8C8C8] inline-block cursor-pointer transition-all duration-[0.3s] ease-[ease-in-out] ml-[45px] p-[0_5px] lg:text-[18px] lg:ml-[30px_px] md:text-[18px] md:ml-[30px_px] md:m-[8px_5px_0] sm:text-[18px] sm:ml-[30px_px] sm:m-[8px_5px_0] xsm:text-[18px] xsm:ml-[30px_px] xsm:m-[8px_5px_0]" data-filter=".branding">Branding</li>
+									<li class=" text-[20px] tracking-[-0.05px] text-[#C8C8C8] inline-block cursor-pointer transition-all duration-[0.3s] ease-[ease-in-out] ml-[45px] p-[0_5px] lg:text-[18px] lg:ml-[30px_px] md:text-[18px] md:ml-[30px_px] md:m-[8px_5px_0] sm:text-[18px] sm:ml-[30px_px] sm:m-[8px_5px_0] xsm:text-[18px] xsm:ml-[30px_px] xsm:m-[8px_5px_0]" data-filter=".logo">Logo</li>
+									<li class=" text-[20px] tracking-[-0.05px] text-[#C8C8C8] inline-block cursor-pointer transition-all duration-[0.3s] ease-[ease-in-out] ml-[45px] p-[0_5px] lg:text-[18px] lg:ml-[30px_px] md:text-[18px] md:ml-[30px_px] md:m-[8px_5px_0] sm:text-[18px] sm:ml-[30px_px] sm:m-[8px_5px_0] xsm:text-[18px] xsm:ml-[30px_px] xsm:m-[8px_5px_0]" data-filter=".illustration">Illustration</li>
+								</ul>
+							</div>
+						</div>
+
+						<div id="isotop-gallery-wrapper" class="grid-2column m-[0_-20px] lg:m-[0_-12px] md:m-[0_-12px] sm:m-[0_-12px] xsm:m-[0_-12px] pt-[50px] lg:pt-5 md:pt-5 sm:pt-5 xsm:pt-5 ">
+							<div class="grid-sizer w-6/12 sm:w-full xsm:w-full p-[0_20px] lg:p-[0_12px] md:p-[0_12px] sm:p-[0_12px] xsm:p-[0_12px]"></div>
+							<div class="isotop-item branding illustration w-6/12 sm:w-full xsm:w-full p-[0_20px] lg:p-[0_12px] md:p-[0_12px] sm:p-[0_12px] xsm:p-[0_12px]">
+								<div class="portfolio-block-one group mt-10 sm:mt-[30px] xsm:mt-[30px] relative z-[5]">
+									<div class="img-meta"><img src="images/gallery/img_01.jpg" alt="" class="w-full"></div>
+									<a href="portfolio-details-v1.html" class="title tran3s flex flex-col justify-center items-center absolute shadow-[0px_15px_40px_rgba(0,41,121,0.04)] z-[2] text-center opacity-0 invisible p-[35px_15px_40px] rounded-[15px] bottom-5 inset-x-[30px] bg-white md:p-[15px] md:bottom-[15px] md:inset-x-[15px] sm:p-[15px] sm:bottom-[15px] sm:inset-x-[15px] xsm:p-[15px] xsm:bottom-[15px] xsm:inset-x-[15px] group-hover:-translate-y-2.5 group-hover:opacity-100 group-hover:visible group/second">
+										<span class="tag text-[17px] text-[rgba(0,40,78,0.5)] mb-[5px]">Branding</span>
+										<span class="pj-name tran3s font-medium text-[22px] md:text-[18px] sm:text-[18px] xsm:text-[18px] text-[color:var(--heading)] group-hover/second:text-[color:var(--prime-three)]">Product Analysis</span>
+									</a>
+									<div class="hover-state tran3s absolute w-full h-full z-[1] opacity-0 invisible left-0 top-0 bg-[rgba(0,0,0,0.8)] group-hover:opacity-100 group-hover:visible"><a class="fancybox tran3s block w-[55px] h-[55px] leading-[55px] text-center text-white text-[35px] translate-y-[30px] delay-[0.05s] mt-[30%] mb-0 mx-auto rounded-[50%] bg-[rgba(255,255,255,0.3)] hover:bg-[var(--prime-two)] group-hover:translate-y-0" data-fancybox="" title="Click for large view" href="images/gallery/img_01.jpg" tabindex="0"><i class="bi bi-plus"></i></a></div>
+								</div> <!-- /.portfolio-block-one -->
+							</div> <!-- /.item -->
+							<div class="isotop-item design logo w-6/12 sm:w-full xsm:w-full p-[0_20px] lg:p-[0_12px] md:p-[0_12px] sm:p-[0_12px] xsm:p-[0_12px]">
+								<div class="portfolio-block-one group mt-10 sm:mt-[30px] xsm:mt-[30px] relative z-[5]">
+									<div class="img-meta"><img src="images/gallery/img_02.jpg" alt="" class="w-full"></div>
+									<a href="portfolio-details-v1.html" class="title tran3s flex flex-col justify-center items-center absolute shadow-[0px_15px_40px_rgba(0,41,121,0.04)] z-[2] text-center opacity-0 invisible p-[35px_15px_40px] rounded-[15px] bottom-5 inset-x-[30px] bg-white md:p-[15px] md:bottom-[15px] md:inset-x-[15px] sm:p-[15px] sm:bottom-[15px] sm:inset-x-[15px] xsm:p-[15px] xsm:bottom-[15px] xsm:inset-x-[15px] group-hover:-translate-y-2.5 group-hover:opacity-100 group-hover:visible group/second">
+										<span class="tag text-[17px] text-[rgba(0,40,78,0.5)] mb-[5px]">Design</span>
+										<span class="pj-name tran3s font-medium text-[22px] md:text-[18px] sm:text-[18px] xsm:text-[18px] text-[color:var(--heading)] group-hover/second:text-[color:var(--prime-three)]">UI, UX Design</span>
+									</a>
+									<div class="hover-state tran3s absolute w-full h-full z-[1] opacity-0 invisible left-0 top-0 bg-[rgba(0,0,0,0.8)] group-hover:opacity-100 group-hover:visible"><a class="fancybox tran3s block w-[55px] h-[55px] leading-[55px] text-center text-white text-[35px] translate-y-[30px] delay-[0.05s] mt-[30%] mb-0 mx-auto rounded-[50%] bg-[rgba(255,255,255,0.3)] hover:bg-[var(--prime-two)] group-hover:translate-y-0" data-fancybox="" title="Click for large view" href="images/gallery/img_02.jpg" tabindex="0"><i class="bi bi-plus"></i></a></div>
+								</div> <!-- /.portfolio-block-one -->
+							</div> <!-- /.item -->
+							<div class="isotop-item branding design illustration w-6/12 sm:w-full xsm:w-full p-[0_20px] lg:p-[0_12px] md:p-[0_12px] sm:p-[0_12px] xsm:p-[0_12px]">
+								<div class="portfolio-block-one group mt-10 sm:mt-[30px] xsm:mt-[30px] relative z-[5]">
+									<div class="img-meta"><img src="images/gallery/img_03.jpg" alt="" class="w-full"></div>
+									<a href="portfolio-details-v1.html" class="title tran3s flex flex-col justify-center items-center absolute shadow-[0px_15px_40px_rgba(0,41,121,0.04)] z-[2] text-center opacity-0 invisible p-[35px_15px_40px] rounded-[15px] bottom-5 inset-x-[30px] bg-white md:p-[15px] md:bottom-[15px] md:inset-x-[15px] sm:p-[15px] sm:bottom-[15px] sm:inset-x-[15px] xsm:p-[15px] xsm:bottom-[15px] xsm:inset-x-[15px] group-hover:-translate-y-2.5 group-hover:opacity-100 group-hover:visible group/second">
+										<span class="tag text-[17px] text-[rgba(0,40,78,0.5)] mb-[5px]">Illustration</span>
+										<span class="pj-name tran3s font-medium text-[22px] md:text-[18px] sm:text-[18px] xsm:text-[18px] text-[color:var(--heading)] group-hover/second:text-[color:var(--prime-three)]">Content Marketing</span>
+									</a>
+									<div class="hover-state tran3s absolute w-full h-full z-[1] opacity-0 invisible left-0 top-0 bg-[rgba(0,0,0,0.8)] group-hover:opacity-100 group-hover:visible"><a class="fancybox tran3s block w-[55px] h-[55px] leading-[55px] text-center text-white text-[35px] translate-y-[30px] delay-[0.05s] mt-[30%] mb-0 mx-auto rounded-[50%] bg-[rgba(255,255,255,0.3)] hover:bg-[var(--prime-two)] group-hover:translate-y-0" data-fancybox="" title="Click for large view" href="images/gallery/img_03.jpg" tabindex="0"><i class="bi bi-plus"></i></a></div>
+								</div> <!-- /.portfolio-block-one -->
+							</div> <!-- /.item -->
+							<div class="isotop-item design logo w-6/12 sm:w-full xsm:w-full p-[0_20px] lg:p-[0_12px] md:p-[0_12px] sm:p-[0_12px] xsm:p-[0_12px]">
+								<div class="portfolio-block-one group mt-10 sm:mt-[30px] xsm:mt-[30px] relative z-[5]">
+									<div class="img-meta"><img src="images/gallery/img_04.jpg" alt="" class="w-full"></div>
+									<a href="portfolio-details-v1.html" class="title tran3s flex flex-col justify-center items-center absolute shadow-[0px_15px_40px_rgba(0,41,121,0.04)] z-[2] text-center opacity-0 invisible p-[35px_15px_40px] rounded-[15px] bottom-5 inset-x-[30px] bg-white md:p-[15px] md:bottom-[15px] md:inset-x-[15px] sm:p-[15px] sm:bottom-[15px] sm:inset-x-[15px] xsm:p-[15px] xsm:bottom-[15px] xsm:inset-x-[15px] group-hover:-translate-y-2.5 group-hover:opacity-100 group-hover:visible group/second">
+										<span class="tag text-[17px] text-[rgba(0,40,78,0.5)] mb-[5px]">Logo</span>
+										<span class="pj-name tran3s font-medium text-[22px] md:text-[18px] sm:text-[18px] xsm:text-[18px] text-[color:var(--heading)] group-hover/second:text-[color:var(--prime-three)]">Market System</span>
+									</a>
+									<div class="hover-state tran3s absolute w-full h-full z-[1] opacity-0 invisible left-0 top-0 bg-[rgba(0,0,0,0.8)] group-hover:opacity-100 group-hover:visible"><a class="fancybox tran3s block w-[55px] h-[55px] leading-[55px] text-center text-white text-[35px] translate-y-[30px] delay-[0.05s] mt-[30%] mb-0 mx-auto rounded-[50%] bg-[rgba(255,255,255,0.3)] hover:bg-[var(--prime-two)] group-hover:translate-y-0" data-fancybox="" title="Click for large view" href="images/gallery/img_04.jpg" tabindex="0"><i class="bi bi-plus"></i></a></div>
+								</div> <!-- /.portfolio-block-one -->
+							</div> <!-- /.item -->
+						</div>
+					</div> <!-- /.container -->
+				</div> <!-- /.portfolio-gallery-one -->
+
+
+
+				<!-- 
+				=============================================
+					Feature Section Thirteen 
+				============================================== 
+				-->
+				<div class="fancy-feature-thirteen relative mt-[250px] mb-[150px] lg:mt-[120px] md:mt-[120px] sm:mt-[120px] xsm:mt-[120px] lg:mb-[100px] md:mb-[100px] sm:mb-[100px] xsm:mb-[100px]" id="s4">
+					<div class="fancy-text text-[200px] 2xl:text-[172px] font-thin tracking-[-14px] text-[rgba(0,0,0,0.04)] absolute top-[-5%] right-[5%] lg:text-[130px] md:text-[95px] md:tracking-[-5px] md:top-[-3%] sm:text-[95px] sm:tracking-[-5px] sm:top-[-3%] xsm:!hidden">Creative</div>
+					<div class="container">
+						<div class="flex flex-wrap mx-[-12px] items-center">
+							<div class="xl:w-5/12 lg:w-5/12 w-full flex-[0_0_auto] px-[12px] max-w-full">
+								<div class="title-style-five xxl:!pr-[3rem] mb-[110px] lg:mb-[70px] md:mb-[70px] sm:mb-[70px] xsm:mb-[70px] wow fadeInLeft">
+									<h2 class="main-title font-Recoleta font-medium text-black text-[72px] leading-[1.25em] 2xl:text-[58px] lg:text-[50px] md:text-[35px] sm:text-[35px] xsm:text-[35px]">My <span class="inline-block relative z-[1]">Expereince <span class="mark-bg absolute w-full h-[13px] z-[-1] left-0 bottom-[17px]" style="background-color:#FFDBDB;"></span></span> & skills.</h2>
+								</div> <!-- /.title-style-five -->
+							</div>
+						</div>
+
+						<div class="flex flex-wrap mx-[-12px]">
+							<div class="xxl:w-5/12 xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] px-[12px] max-w-full wow fadeInUp">
+								<h3 class="block-title font-medium text-black pb-[30px] lg:pb-[10px] md:pb-[10px] sm:pb-[10px] xsm:pb-[10px] ">Skills</h3>
+								<ul class="flex flex-wrap items-center mb-0 pl-0 list-none skils-list -mx-2.5 my-0">
+									<li class=" text-[24px] text-black m-[20px_10px_0] lg:text-[20px] lg:m-[15px_10px_0] md:text-[20px] md:m-[15px_10px_0] sm:text-[20px] sm:m-[15px_10px_0] xsm:text-[20px] xsm:m-[15px_10px_0]"><span class=" block leading-[75px] text-[18px] p-[0_30px] rounded-[10px] lg:leading-[58px] lg:text-[15px] lg:p-[0_20px] md:leading-[58px] md:text-[15px] md:p-[0_20px] sm:leading-[58px] sm:text-[15px] sm:p-[0_20px] xsm:leading-[58px] xsm:text-[15px] xsm:p-[0_20px]" style="background-color: #FFF8F8;">Great Interface</span></li>
+									<li class=" text-[24px] text-black m-[20px_10px_0] lg:text-[20px] lg:m-[15px_10px_0] md:text-[20px] md:m-[15px_10px_0] sm:text-[20px] sm:m-[15px_10px_0] xsm:text-[20px] xsm:m-[15px_10px_0]"><span class=" block leading-[75px] text-[18px] p-[0_30px] rounded-[10px] lg:leading-[58px] lg:text-[15px] lg:p-[0_20px] md:leading-[58px] md:text-[15px] md:p-[0_20px] sm:leading-[58px] sm:text-[15px] sm:p-[0_20px] xsm:leading-[58px] xsm:text-[15px] xsm:p-[0_20px]" style="background-color: #E4FCF9;">Expereinced</span></li>
+									<li class=" text-[24px] text-black m-[20px_10px_0] lg:text-[20px] lg:m-[15px_10px_0] md:text-[20px] md:m-[15px_10px_0] sm:text-[20px] sm:m-[15px_10px_0] xsm:text-[20px] xsm:m-[15px_10px_0]"><span class=" block leading-[75px] text-[18px] p-[0_30px] rounded-[10px] lg:leading-[58px] lg:text-[15px] lg:p-[0_20px] md:leading-[58px] md:text-[15px] md:p-[0_20px] sm:leading-[58px] sm:text-[15px] sm:p-[0_20px] xsm:leading-[58px] xsm:text-[15px] xsm:p-[0_20px]" style="background-color: #E5F4FB;">Low Price</span></li>
+									<li class=" text-[24px] text-black m-[20px_10px_0] lg:text-[20px] lg:m-[15px_10px_0] md:text-[20px] md:m-[15px_10px_0] sm:text-[20px] sm:m-[15px_10px_0] xsm:text-[20px] xsm:m-[15px_10px_0]"><span class=" block leading-[75px] text-[18px] p-[0_30px] rounded-[10px] lg:leading-[58px] lg:text-[15px] lg:p-[0_20px] md:leading-[58px] md:text-[15px] md:p-[0_20px] sm:leading-[58px] sm:text-[15px] sm:p-[0_20px] xsm:leading-[58px] xsm:text-[15px] xsm:p-[0_20px]" style="background-color: #FFF9E6;">Customizable</span></li>
+									<li class=" text-[24px] text-black m-[20px_10px_0] lg:text-[20px] lg:m-[15px_10px_0] md:text-[20px] md:m-[15px_10px_0] sm:text-[20px] sm:m-[15px_10px_0] xsm:text-[20px] xsm:m-[15px_10px_0]"><span class=" block leading-[75px] text-[18px] p-[0_30px] rounded-[10px] lg:leading-[58px] lg:text-[15px] lg:p-[0_20px] md:leading-[58px] md:text-[15px] md:p-[0_20px] sm:leading-[58px] sm:text-[15px] sm:p-[0_20px] xsm:leading-[58px] xsm:text-[15px] xsm:p-[0_20px]" style="background-color: #F9EDFF;">Marketing</span></li>
+									<li class=" text-[24px] text-black m-[20px_10px_0] lg:text-[20px] lg:m-[15px_10px_0] md:text-[20px] md:m-[15px_10px_0] sm:text-[20px] sm:m-[15px_10px_0] xsm:text-[20px] xsm:m-[15px_10px_0]"><span class=" block leading-[75px] text-[18px] p-[0_30px] rounded-[10px] lg:leading-[58px] lg:text-[15px] lg:p-[0_20px] md:leading-[58px] md:text-[15px] md:p-[0_20px] sm:leading-[58px] sm:text-[15px] sm:p-[0_20px] xsm:leading-[58px] xsm:text-[15px] xsm:p-[0_20px]" style="background-color: #F0F9E0;">Great Support</span></li>
+									<li class=" text-[24px] text-black m-[20px_10px_0] lg:text-[20px] lg:m-[15px_10px_0] md:text-[20px] md:m-[15px_10px_0] sm:text-[20px] sm:m-[15px_10px_0] xsm:text-[20px] xsm:m-[15px_10px_0]"><span class=" block leading-[75px] text-[18px] p-[0_30px] rounded-[10px] lg:leading-[58px] lg:text-[15px] lg:p-[0_20px] md:leading-[58px] md:text-[15px] md:p-[0_20px] sm:leading-[58px] sm:text-[15px] sm:p-[0_20px] xsm:leading-[58px] xsm:text-[15px] xsm:p-[0_20px]" style="background-color: #FFF0F0;">Safe</span></li>
+									<li class=" text-[24px] text-black m-[20px_10px_0] lg:text-[20px] lg:m-[15px_10px_0] md:text-[20px] md:m-[15px_10px_0] sm:text-[20px] sm:m-[15px_10px_0] xsm:text-[20px] xsm:m-[15px_10px_0]">& more…</li>
+								</ul>
+							</div>
+							<div class="xl:w-5/12 lg:w-6/12 w-full flex-[0_0_auto] px-[12px] max-w-full !ml-auto wow fadeInUp" data-wow-delay="0.2s">
+								<h3 class="block-title font-medium text-black pb-5 md:mt-[50px] sm:mt-[50px] xsm:mt-[50px] md:pb-[10px] sm:pb-[10px] xsm:pb-[10px] ">Award</h3>
+								<p class="text-xxl text-black mb-[75px] lg:mb-[30px] md:mb-[30px] sm:mb-[30px] xsm:mb-[30px] text-[28px] lg:text-[20px] md:text-[20px] sm:text-[20px] xsm:text-[20px] leading-[1.64em] ">Inciddun ut labore et do magna exrat enim ad mim venam.</p>
+								<div class=" text-black tx-sp1 text-[25px] mb-[-15px]"><span class="font-Recoleta font-light text-[72px] lg:text-[60px] md:text-[60px] sm:text-[60px] xsm:text-[60px] ">03</span> times</div>
+								<div class="text-[20px] lg:text-[18px] md:text-[18px] sm:text-[18px] xsm:text-[18px] opacity-50">UI/UX Award winner</div>
+							</div>
+						</div>
+						<div class="flex flex-wrap mx-[-12px]">
+							<div class="xl:w-3/12 lg:w-3/12 sm:w-6/12 w-full flex-[0_0_auto] px-[12px] max-w-full wow fadeInUp">
+								<h3 class="block-title font-medium text-black pb-[30px] mt-[150px] md:pb-5 sm:pb-5 xsm:pb-5 md:mt-[60px] sm:mt-[60px] xsm:mt-[60px] ">Education</h3>
+								<p class=" text-[24px] 2xl:text-[22px] lg:text-[19px] md:text-[19px] sm:text-[19px] xsm:text-[19px] leading-[1.67em] text-black ">Bachelor Degree of design.</p>
+								<div class="tx-sp2 uppercase text-[14px] tracking-[1px] text-[rgba(0,0,0,0.35)]">university of Boston, USA</div>
+								<p class=" text-[24px] 2xl:text-[22px] lg:text-[19px] md:text-[19px] sm:text-[19px] xsm:text-[19px] leading-[1.67em] text-black mt-[45px] ">UI/UX Design</p>
+								<div class="tx-sp2 uppercase text-[14px] tracking-[1px] text-[rgba(0,0,0,0.35)]">university of Vegas, USA</div>
+							</div>
+							<div class="xl:w-3/12 lg:w-3/12 sm:w-6/12 w-full flex-[0_0_auto] px-[12px] max-w-full xl:!pl-[3rem] wow fadeInUp" data-wow-delay="0.2s">
+								<h3 class="block-title font-medium text-black pb-[30px] mt-[150px] md:pb-5 sm:pb-5 xsm:pb-5 md:mt-[60px] sm:mt-[60px] xsm:mt-[60px] ">Tools</h3>
+								<ul class=" mb-0 pl-0 list-none text-black text-[20px] lg:text-[18px] md:text-[18px] sm:text-[18px] xsm:text-[18px] tools-list">
+									<li>Adobe Photoshop</li>
+									<li>Adobe XD</li>
+									<li>Sketch App</li>
+									<li>Adobe Premier</li>
+									<li>Illsutrator</li>
+									<li>WordPress Dev</li>
+									<li>Figma</li>
+								</ul>
+							</div>
+							<div class="xl:w-6/12 lg:w-6/12 md:w-7/12 sm:w-10/12 w-full flex-[0_0_auto] px-[12px] max-w-full m-auto wow fadeInUp" data-wow-delay="0.4s">
+								<div class="img-meta inline-block relative mt-20 ">
+									<img src="images/lazy.svg" data-src="images/shape/shape_63.svg" alt="" class="lazy-img">
+									<div class="text-meta w-full absolute -translate-y-2/4 left-1/4 top-2/4 xsm:left-[15%]">
+										<div class="tm-heading text-[62px] tracking-[2px] text-[#FFC962] font-Eustache lg:text-[45px] md:text-[45px] sm:text-[45px] xsm:text-[45px] ">Catch me</div>
+										<h3 class="text-white font-Recoleta font-medium text-[60px] lg:text-[43px] md:text-[43px] sm:text-[43px] xsm:text-[43px] leading-[1.2em] tracking-[-1px]"><span class="block">Any Project? </span><a href="#s5" class="tran3s underline text-[0.65em] hover:text-[#FFC962] hover:underline">Let’s Talk</a></h3>
+									</div> <!-- /.text-meta -->
+									<div class="shapes shape-one rounded-[50%] absolute w-[52px] h-[52px] z-[1] left-[15%] top-[12%] bg-[#31DAFF]"></div>
+									<div class="shapes shape-two rounded-[50%] absolute w-[132px] h-[132px] z-[1] right-[3%] bottom-[10%] bg-[#FFC962] xsm:!hidden"></div>
+								</div> <!-- /.img-meta -->
+							</div>
+						</div>
+					</div>
+				</div> <!-- /.fancy-feature-thirteen -->
+
+
+
+				<!-- 
+				=============================================
+					Counter Section One 
+				============================================== 
+				-->
+				<div class=" p-[30px] lg:p-0 md:p-0 sm:p-0 xsm:p-0 ">
+					<div class="counter-section-one relative pt-20 pb-[100px] lg:pt-[50px] md:pt-[50px] sm:pt-[50px] xsm:pt-[50px] lg:pb-[60px] md:pb-[60px] sm:pb-[60px] xsm:pb-[60px] bg-[url(../images/assets/bg-5.png)] bg-cover bg-no-repeat bg-center bg-[#F2F4F8] z-[1]">
+						<img src="images/lazy.svg" data-src="images/shape/shape_64.svg" alt="" class="lazy-img shapes shape-one absolute z-[-1] left-[7%] top-[12%]">
+						<img src="images/lazy.svg" data-src="images/shape/shape_65.svg" alt="" class="lazy-img shapes shape-two absolute z-[-1] left-[6%] bottom-[17%]">
+						<img src="images/lazy.svg" data-src="images/shape/shape_66.svg" alt="" class="lazy-img shapes shape-three absolute z-[-1] right-[5%] top-[16%]">
+						<img src="images/lazy.svg" data-src="images/shape/shape_67.svg" alt="" class="lazy-img shapes shape-four absolute z-[-1] right-[5%] bottom-[16%]">
+						<div class="container">
+							<div class="flex flex-wrap mx-[-12px]">
+								<div class="xl:w-3/12 lg:w-3/12 md:w-6/12 sm:w-6/12 w-full flex-[0_0_auto] px-[12px] max-w-full">
+									<div class="counter-block-one mt-10 text-center wow fadeInUp">
+										<div class="icon-bg w-[230px] h-[310px] m-[0_auto] pt-[70px] rounded-[120px] bg-white lg:w-[170px] lg:h-60 lg:pt-[50px] lg:rounded-[100px] md:w-[170px] md:h-60 md:pt-[50px] md:rounded-[100px] sm:w-[170px] sm:h-60 sm:pt-[50px] sm:rounded-[100px] xsm:w-[170px] xsm:h-60 xsm:pt-[50px] xsm:rounded-[100px]">
+											<div class="icon-img flex justify-center h-[114px] lg:h-[80px] md:h-[80px] sm:h-[80px] xsm:h-[80px]"><img src="images/lazy.svg" data-src="images/logo/Plogo-14.png" alt="" class="lazy-img"></div>
+											<div class="icon-title lg:text-[16px] md:text-[16px] sm:text-[16px] xsm:text-[16px] tracking-[1px] uppercase text-[18px] leading-[1.67em] text-black mt-[35px] lg:mt-[30px] md:mt-[30px] sm:mt-[30px] xsm:mt-[30px]">Figma</div>
+										</div>
+										<div class="main-count font-Recoleta font-light text-black mt-[25px] lg:mt-5 md:mt-5 sm:mt-5 xsm:mt-5 text-[60px] lg:text-[40px] md:text-[40px] sm:text-[40px] xsm:text-[40px] "><span class="counter">93</span>%</div>
+									</div> <!-- /.counter-block-one -->
+								</div>
+								<div class="xl:w-3/12 lg:w-3/12 md:w-6/12 sm:w-6/12 w-full flex-[0_0_auto] px-[12px] max-w-full">
+									<div class="counter-block-one mt-10 text-center wow fadeInUp" data-wow-delay="0.2s">
+										<div class="icon-bg w-[230px] h-[310px] m-[0_auto] pt-[70px] rounded-[120px] bg-white lg:w-[170px] lg:h-60 lg:pt-[50px] lg:rounded-[100px] md:w-[170px] md:h-60 md:pt-[50px] md:rounded-[100px] sm:w-[170px] sm:h-60 sm:pt-[50px] sm:rounded-[100px] xsm:w-[170px] xsm:h-60 xsm:pt-[50px] xsm:rounded-[100px]">
+											<div class="icon-img flex justify-center h-[114px] lg:h-[80px] md:h-[80px] sm:h-[80px] xsm:h-[80px]"><img src="images/lazy.svg" data-src="images/logo/Plogo-15.png" alt="" class="lazy-img"></div>
+											<div class="icon-title lg:text-[16px] md:text-[16px] sm:text-[16px] xsm:text-[16px] tracking-[1px] uppercase text-[18px] leading-[1.67em] text-black mt-[35px] lg:mt-[30px] md:mt-[30px] sm:mt-[30px] xsm:mt-[30px]">Photoshop</div>
+										</div>
+										<div class="main-count font-Recoleta font-light text-black mt-[25px] lg:mt-5 md:mt-5 sm:mt-5 xsm:mt-5 text-[60px] lg:text-[40px] md:text-[40px] sm:text-[40px] xsm:text-[40px] "><span class="counter">92</span>%</div>
+									</div> <!-- /.counter-block-one -->
+								</div>
+								<div class="xl:w-3/12 lg:w-3/12 md:w-6/12 sm:w-6/12 w-full flex-[0_0_auto] px-[12px] max-w-full">
+									<div class="counter-block-one mt-10 text-center wow fadeInUp" data-wow-delay="0.35s">
+										<div class="icon-bg w-[230px] h-[310px] m-[0_auto] pt-[70px] rounded-[120px] bg-white lg:w-[170px] lg:h-60 lg:pt-[50px] lg:rounded-[100px] md:w-[170px] md:h-60 md:pt-[50px] md:rounded-[100px] sm:w-[170px] sm:h-60 sm:pt-[50px] sm:rounded-[100px] xsm:w-[170px] xsm:h-60 xsm:pt-[50px] xsm:rounded-[100px]">
+											<div class="icon-img flex justify-center h-[114px] lg:h-[80px] md:h-[80px] sm:h-[80px] xsm:h-[80px]"><img src="images/lazy.svg" data-src="images/logo/Plogo-16.png" alt="" class="lazy-img"></div>
+											<div class="icon-title lg:text-[16px] md:text-[16px] sm:text-[16px] xsm:text-[16px] tracking-[1px] uppercase text-[18px] leading-[1.67em] text-black mt-[35px] lg:mt-[30px] md:mt-[30px] sm:mt-[30px] xsm:mt-[30px]">SKETCH</div>
+										</div>
+										<div class="main-count font-Recoleta font-light text-black mt-[25px] lg:mt-5 md:mt-5 sm:mt-5 xsm:mt-5 text-[60px] lg:text-[40px] md:text-[40px] sm:text-[40px] xsm:text-[40px] "><span class="counter">85</span>%</div>
+									</div> <!-- /.counter-block-one -->
+								</div>
+								<div class="xl:w-3/12 lg:w-3/12 md:w-6/12 sm:w-6/12 w-full flex-[0_0_auto] px-[12px] max-w-full">
+									<div class="counter-block-one mt-10 text-center wow fadeInUp" data-wow-delay="0.45s">
+										<div class="icon-bg w-[230px] h-[310px] m-[0_auto] pt-[70px] rounded-[120px] bg-white lg:w-[170px] lg:h-60 lg:pt-[50px] lg:rounded-[100px] md:w-[170px] md:h-60 md:pt-[50px] md:rounded-[100px] sm:w-[170px] sm:h-60 sm:pt-[50px] sm:rounded-[100px] xsm:w-[170px] xsm:h-60 xsm:pt-[50px] xsm:rounded-[100px]">
+											<div class="icon-img flex justify-center h-[114px] lg:h-[80px] md:h-[80px] sm:h-[80px] xsm:h-[80px]"><img src="images/lazy.svg" data-src="images/logo/Plogo-17.png" alt="" class="lazy-img"></div>
+											<div class="icon-title lg:text-[16px] md:text-[16px] sm:text-[16px] xsm:text-[16px] tracking-[1px] uppercase text-[18px] leading-[1.67em] text-black mt-[35px] lg:mt-[30px] md:mt-[30px] sm:mt-[30px] xsm:mt-[30px]">XD</div>
+										</div>
+										<div class="main-count font-Recoleta font-light text-black mt-[25px] lg:mt-5 md:mt-5 sm:mt-5 xsm:mt-5 text-[60px] lg:text-[40px] md:text-[40px] sm:text-[40px] xsm:text-[40px] "><span class="counter">82</span>%</div>
+									</div> <!-- /.counter-block-one -->
+								</div>
+							</div>
+						</div> <!-- /.container -->
+					</div> <!-- /.counter-section-one -->
+				</div>
+
+
+
+				<!--
+				=====================================================
+					Feedback Section Four 
+				=====================================================
+				-->
+				<div class="feedback-section-four relative mt-[150px] lg:mt-[120px] md:mt-[120px] sm:mt-[120px] xsm:mt-[120px]">
+					<div class="container">
+						<div class="title-style-five text-center mb-[75px] lg:mb-10 wow fadeInUp">
+							<div class="sc-title uppercase text-[16px] text-[#BEBEBE] tracking-[4px] pb-5 lg:text-[14px] lg:pb-2.5 md:text-[14px] md:pb-2.5 sm:text-[14px] sm:pb-2.5 xsm:text-[14px] xsm:pb-2.5">TESTIMONIALS</div>
+							<h2 class="main-title font-Recoleta font-medium text-black text-[72px] leading-[1.25em] 2xl:text-[58px] lg:text-[50px] md:text-[35px] sm:text-[35px] xsm:text-[35px]">Client <span class="inline-block relative z-[1]">Feedback <span class="mark-bg absolute w-full h-[13px] z-[-1] left-0 bottom-[17px]" style="background-color:#FFE9B0;"></span></span></h2>
+						</div> <!-- /.title-style-five -->
+					</div>
+
+					<div class="slider-wrapper p-[30px] lg:p-0 md:p-0 sm:p-0 xsm:p-0 m-[0_-20px] lg:m-0 md:m-0 sm:m-0 xsm:m-0">
+						<div class="feedback_slider_four">
+							<div class="item m-[0_20px] lg:m-[0_12px] md:m-[0_12px] sm:m-[0_12px] xsm:m-[0_12px]">
+								<div class="feedback-block-four relative border overflow-hidden p-[40px_48px_45px] lg:p-[30px_20px] md:p-[30px_20px] sm:p-[30px_20px] xsm:p-[30px_20px] rounded-xl border-solid border-[#EAEAEA]">
+									<div class="icon rounded-[50%] flex items-center justify-center w-[52px] h-[52px] bg-black"><img src="images/icon/icon_42.svg" alt=""></div>
+									<p class=" text-black text-[20px] leading-[38px] m-[32px_0_80px] lg:text-[17px] lg:leading-[34px] lg:m-[25px_0_40px] md:text-[17px] md:leading-[34px] md:m-[25px_0_40px] sm:text-[17px] sm:leading-[34px] sm:m-[25px_0_40px] xsm:text-[17px] xsm:leading-[34px] xsm:m-[25px_0_40px]">The passage experienced a surgu popularity during the ios when Letraset used it on their lor bonord dry-transfer sheets & again during the sample.</p>
+									<div class="flex items-center justify-between">
+										<h6 class="name text-[20px] font-medium !m-0 text-black lg:text-[18px] md:text-[18px] sm:text-[18px] xsm:text-[18px] ">Martin Jonas <span class="font-normal opacity-50 text-[16px]">USA</span></h6>
+										<ul class=" mb-0 pl-0 list-none flex rating">
+	<li class=" text-[17px] text-[#FFC12B] ml-2.5 xsm:text-[15px] xsm:ml-1.5"><i class="bi bi-star-fill"></i></li>
+	<li class=" text-[17px] text-[#FFC12B] ml-2.5 xsm:text-[15px] xsm:ml-1.5"><i class="bi bi-star-fill"></i></li>
+	<li class=" text-[17px] text-[#FFC12B] ml-2.5 xsm:text-[15px] xsm:ml-1.5"><i class="bi bi-star-fill"></i></li>
+	<li class=" text-[17px] text-[#FFC12B] ml-2.5 xsm:text-[15px] xsm:ml-1.5"><i class="bi bi-star-fill"></i></li>
+	<li class=" text-[17px] text-[#FFC12B] ml-2.5 xsm:text-[15px] xsm:ml-1.5"><i class="bi bi-star-fill"></i></li>
+										</ul>
+									</div>
+									<span class="ribbon absolute h-[7px] -bottom-px -inset-x-px" style="background:#B67DFF;"></span>
+								</div> <!-- /.feedback-block-four -->
+							</div> <!-- /.item -->
+							<div class="item m-[0_20px] lg:m-[0_12px] md:m-[0_12px] sm:m-[0_12px] xsm:m-[0_12px]">
+								<div class="feedback-block-four relative border overflow-hidden p-[40px_48px_45px] lg:p-[30px_20px] md:p-[30px_20px] sm:p-[30px_20px] xsm:p-[30px_20px] rounded-xl border-solid border-[#EAEAEA]">
+									<div class="icon rounded-[50%] flex items-center justify-center w-[52px] h-[52px] bg-black"><img src="images/icon/icon_42.svg" alt=""></div>
+									<p class=" text-black text-[20px] leading-[38px] m-[32px_0_80px] lg:text-[17px] lg:leading-[34px] lg:m-[25px_0_40px] md:text-[17px] md:leading-[34px] md:m-[25px_0_40px] sm:text-[17px] sm:leading-[34px] sm:m-[25px_0_40px] xsm:text-[17px] xsm:leading-[34px] xsm:m-[25px_0_40px]">The passage experienced a surgu popularity during the ios when Letraset used it on their lor bonord dry-transfer sheets & again during the sample.</p>
+									<div class="flex items-center justify-between">
+										<h6 class="name text-[20px] font-medium !m-0 text-black lg:text-[18px] md:text-[18px] sm:text-[18px] xsm:text-[18px] ">Rashed Ka <span class="font-normal opacity-50 text-[16px]">USA</span></h6>
+										<ul class=" mb-0 pl-0 list-none flex rating">
+	<li class=" text-[17px] text-[#FFC12B] ml-2.5 xsm:text-[15px] xsm:ml-1.5"><i class="bi bi-star-fill"></i></li>
+	<li class=" text-[17px] text-[#FFC12B] ml-2.5 xsm:text-[15px] xsm:ml-1.5"><i class="bi bi-star-fill"></i></li>
+	<li class=" text-[17px] text-[#FFC12B] ml-2.5 xsm:text-[15px] xsm:ml-1.5"><i class="bi bi-star-fill"></i></li>
+	<li class=" text-[17px] text-[#FFC12B] ml-2.5 xsm:text-[15px] xsm:ml-1.5"><i class="bi bi-star-fill"></i></li>
+	<li class=" text-[17px] text-[#FFC12B] ml-2.5 xsm:text-[15px] xsm:ml-1.5"><i class="bi bi-star-fill"></i></li>
+										</ul>
+									</div>
+									<span class="ribbon absolute h-[7px] -bottom-px -inset-x-px" style="background:#FFBC3A;"></span>
+								</div> <!-- /.feedback-block-four -->
+							</div> <!-- /.item -->
+							<div class="item m-[0_20px] lg:m-[0_12px] md:m-[0_12px] sm:m-[0_12px] xsm:m-[0_12px]">
+								<div class="feedback-block-four relative border overflow-hidden p-[40px_48px_45px] lg:p-[30px_20px] md:p-[30px_20px] sm:p-[30px_20px] xsm:p-[30px_20px] rounded-xl border-solid border-[#EAEAEA]">
+									<div class="icon rounded-[50%] flex items-center justify-center w-[52px] h-[52px] bg-black"><img src="images/icon/icon_42.svg" alt=""></div>
+									<p class=" text-black text-[20px] leading-[38px] m-[32px_0_80px] lg:text-[17px] lg:leading-[34px] lg:m-[25px_0_40px] md:text-[17px] md:leading-[34px] md:m-[25px_0_40px] sm:text-[17px] sm:leading-[34px] sm:m-[25px_0_40px] xsm:text-[17px] xsm:leading-[34px] xsm:m-[25px_0_40px]">The passage experienced a surgu popularity during the ios when Letraset used it on their lor bonord dry-transfer sheets & again during the sample.</p>
+									<div class="flex items-center justify-between">
+										<h6 class="name text-[20px] font-medium !m-0 text-black lg:text-[18px] md:text-[18px] sm:text-[18px] xsm:text-[18px] ">Jubayer Hasan <span class="font-normal opacity-50 text-[16px]">USA</span></h6>
+										<ul class=" mb-0 pl-0 list-none flex rating">
+	<li class=" text-[17px] text-[#FFC12B] ml-2.5 xsm:text-[15px] xsm:ml-1.5"><i class="bi bi-star-fill"></i></li>
+	<li class=" text-[17px] text-[#FFC12B] ml-2.5 xsm:text-[15px] xsm:ml-1.5"><i class="bi bi-star-fill"></i></li>
+	<li class=" text-[17px] text-[#FFC12B] ml-2.5 xsm:text-[15px] xsm:ml-1.5"><i class="bi bi-star-fill"></i></li>
+	<li class=" text-[17px] text-[#FFC12B] ml-2.5 xsm:text-[15px] xsm:ml-1.5"><i class="bi bi-star-fill"></i></li>
+	<li class=" text-[17px] text-[#FFC12B] ml-2.5 xsm:text-[15px] xsm:ml-1.5"><i class="bi bi-star-fill"></i></li>
+										</ul>
+									</div>
+									<span class="ribbon absolute h-[7px] -bottom-px -inset-x-px" style="background:#49E5EF;"></span>
+								</div> <!-- /.feedback-block-four -->
+							</div> <!-- /.item -->
+							<div class="item m-[0_20px] lg:m-[0_12px] md:m-[0_12px] sm:m-[0_12px] xsm:m-[0_12px]">
+								<div class="feedback-block-four relative border overflow-hidden p-[40px_48px_45px] lg:p-[30px_20px] md:p-[30px_20px] sm:p-[30px_20px] xsm:p-[30px_20px] rounded-xl border-solid border-[#EAEAEA]">
+									<div class="icon rounded-[50%] flex items-center justify-center w-[52px] h-[52px] bg-black"><img src="images/icon/icon_42.svg" alt=""></div>
+									<p class=" text-black text-[20px] leading-[38px] m-[32px_0_80px] lg:text-[17px] lg:leading-[34px] lg:m-[25px_0_40px] md:text-[17px] md:leading-[34px] md:m-[25px_0_40px] sm:text-[17px] sm:leading-[34px] sm:m-[25px_0_40px] xsm:text-[17px] xsm:leading-[34px] xsm:m-[25px_0_40px]">The passage experienced a surgu popularity during the ios when Letraset used it on their lor bonord dry-transfer sheets & again during the sample.</p>
+									<div class="flex items-center justify-between">
+										<h6 class="name text-[20px] font-medium !m-0 text-black lg:text-[18px] md:text-[18px] sm:text-[18px] xsm:text-[18px] ">Rashed Ka <span class="font-normal opacity-50 text-[16px]">Spain</span></h6>
+										<ul class=" mb-0 pl-0 list-none flex rating">
+	<li class=" text-[17px] text-[#FFC12B] ml-2.5 xsm:text-[15px] xsm:ml-1.5"><i class="bi bi-star-fill"></i></li>
+	<li class=" text-[17px] text-[#FFC12B] ml-2.5 xsm:text-[15px] xsm:ml-1.5"><i class="bi bi-star-fill"></i></li>
+	<li class=" text-[17px] text-[#FFC12B] ml-2.5 xsm:text-[15px] xsm:ml-1.5"><i class="bi bi-star-fill"></i></li>
+	<li class=" text-[17px] text-[#FFC12B] ml-2.5 xsm:text-[15px] xsm:ml-1.5"><i class="bi bi-star-fill"></i></li>
+	<li class=" text-[17px] text-[#FFC12B] ml-2.5 xsm:text-[15px] xsm:ml-1.5"><i class="bi bi-star-fill"></i></li>
+										</ul>
+									</div>
+									<span class="ribbon absolute h-[7px] -bottom-px -inset-x-px" style="background:#8F6BF6;"></span>
+								</div> <!-- /.feedback-block-four -->
+							</div> <!-- /.item -->
+						</div> <!-- /.feedback_slider_three -->
+					</div> <!-- /.slider-wrapper -->
+				</div> <!-- /.feedback-section-four -->
+
+
+
+				<!--
+				=====================================================
+					Fancy Short Banner Five 
+				=====================================================
+				-->
+				<div class="fancy-short-banner-five 2xl:p-[20px] p-[30px] lg:p-0 md:p-0 sm:p-0 xsm:p-0 mt-[110px]" id="s5">
+					<div class="bg-wrapper relative pt-[180px] pb-[140px] lg:py-20 md:py-20 sm:py-20 xsm:py-20 z-[2] bg-[#FFF5EC]">
+						<img src="images/lazy.svg" data-src="images/shape/shape_68.svg" alt="" class="lazy-img shapes shape-one absolute z-[-1] left-[5%] top-[10%]">
+						<img src="images/lazy.svg" data-src="images/shape/shape_69.svg" alt="" class="lazy-img shapes shape-two absolute z-[-1] left-[40%] bottom-[7%]">
+						<img src="images/lazy.svg" data-src="images/shape/shape_70.svg" alt="" class="lazy-img shapes shape-three absolute z-[-1] right-[4%] bottom-[41%]">
+						<div class="r-shape-one absolute w-[67px] h-[134px] rounded-[0_100px_100px_0] left-0 bottom-0 bg-[#811EFF]"></div>
+						<div class="container">
+							<div class="innner-content bg-white relative wow fadeInUp p-[85px_90px_85px] rounded-[20px] lg:p-[50px_30px] md:p-[50px_30px] sm:p-[50px_30px] xsm:p-[50px_30px]">
+								<div class="r-shape-two rounded-[50%] absolute w-[108px] h-[108px] top-[-60px] right-[-60px] z-[-1] bg-[#FFD74A]"></div>
+								<div class="flex flex-wrap mx-[-12px] items-center">
+									<div class="xl:w-5/12 lg:w-5/12 w-full flex-[0_0_auto] px-[12px] max-w-full">
+										<h2 class="title-xl font-Recoleta font-medium text-black text-[100px] leading-[1.1em] lg:text-[55px] md:text-[55px] sm:text-[55px] xsm:text-[55px] ">Let’s <span class="inline-block relative z-[1] before:content-[''] before:absolute before:w-full before:h-[15px] before:z-[-1] before:left-0 before:bottom-[17px] before:bg-[#FFDEFA]">Connect</span></h2>
+										<p class=" text-[24px] 2xl:text-[22px] lg:text-[19px] md:text-[19px] sm:text-[19px] xsm:text-[19px] leading-[1.67em] mt-[35px] md:mt-5 sm:mt-5 xsm:mt-5">Growing up in poverty, children face tough challenges.</p>
+									</div>
+									<div class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] px-[12px] max-w-full !ml-auto">
+										<div class="form-style-one md:mt-10 sm:mt-10 xsm:mt-10 ">
+											<form action="inc/contact.php" id="contact-form" data-toggle="validator">
+												<div class="messages"></div>
+												<div class="flex flex-wrap mx-[-12px] controls">
+													<div class="w-full flex-[0_0_auto] px-[12px] max-w-full">
+														<div class="input-group-meta relative form-group mb-[25px] ">
+															<input class=" w-full max-w-full text-black text-[18px] lg:text-[16px] md:text-[16px] sm:text-[16px] xsm:text-[16px] border-b-2 border-b-black border-0 border-solid h-[62px]" type="text" placeholder="Rashed Kabir" name="name" required="required" data-error="Name is required.">
+															<div class="help-block with-errors absolute bottom-[-17px] text-[13px] leading-5 text-[#ff4d44] left-0"></div>
+														</div>
+													</div>
+													
+													<div class="w-full flex-[0_0_auto] px-[12px] max-w-full">
+														<div class="input-group-meta relative form-group mb-[50px] ">
+															<input class=" w-full max-w-full text-black text-[18px] lg:text-[16px] md:text-[16px] sm:text-[16px] xsm:text-[16px] border-b-2 border-b-black border-0 border-solid h-[62px]" type="email" placeholder="rshdkabir@gmail.com" name="email" required="required" data-error="Valid email is required.">
+															<div class="help-block with-errors absolute bottom-[-17px] text-[13px] leading-5 text-[#ff4d44] left-0"></div>
+														</div>
+													</div>
+													<div class="w-full flex-[0_0_auto] px-[12px] max-w-full">
+														<div class="input-group-meta relative form-group mb-[30px]">
+															<textarea class=" h-[122px] max-h-[122px] w-full max-w-full text-black text-[18px] lg:text-[16px] md:text-[16px] sm:text-[16px] xsm:text-[16px] border-b-2 border-b-black border-0 border-solid" placeholder="Your message*" name="message" required="required" data-error="Please,leave us a message."></textarea>
+															<div class="help-block with-errors absolute bottom-[-17px] text-[13px] leading-5 text-[#ff4d44] left-0"></div>
+														</div>
+													</div>
+													<div class="w-full flex-[0_0_auto] px-[12px] max-w-full"><button class="send-btn ripple-btn w-full font-medium tran3s uppercase text-white leading-[60px] text-[14px] tracking-[0.88px] bg-black hover:bg-[var(--prime-three)] relative before:content-[''] before:absolute before:w-[100px] before:h-[100px] before:mt-[-50px] before:ml-[-50px] before:mr-0 before:mb-0 before:rounded-[50%] before:scale-0 before:left-2/4 before:top-2/4 hover:before:opacity-0 hover:before:transition-all hover:before:duration-[0.5s] hover:before:ease-[ease-in-out] hover:before:scale-100 before:bg-[rgba(255,255,255,0.5)]">Send Message</button></div>
+												</div>
+											</form>
+										</div> <!-- /.form-style-one -->
+									</div>
+								</div>
+							</div> <!-- /.innner-content -->
+						</div>
+					</div> <!-- /.bg-wrapper -->
+				</div> <!-- /.fancy-short-banner-five -->
+
+
+				<!--
+				=====================================================
+					Footer 
+				=====================================================
+				-->
+				<div class="footer-style-four relative p-[70px_0_40px] lg:p-[30px_0_0] md:p-[30px_0_0] sm:p-[30px_0_0] xsm:p-[30px_0_0]">
+					<div class="container">
+						<div class="flex flex-wrap mx-[-12px] items-center">
+							<div class="xl:w-4/12 lg:w-4/12 w-full flex-[0_0_auto] px-[12px] max-w-full mb-[30px] xl:order-none lg:order-none">
+								<div class="logo flex justify-center xl:justify-start lg:justify-start "><a href="index.html"><img src="images/logo/logo_04.png" alt="" width="77"></a></div>
+							</div>
+							<div class="xl:w-4/12 lg:w-4/12 w-full flex-[0_0_auto] px-[12px] max-w-full mb-[30px] flex justify-center xl:justify-end lg:justify-end xl:order-3 lg:order-3">
+								<a href="#" class="mail flex items-center text-[20px] text-black"><span class="icon flex items-center justify-center rounded-[50%] w-[42px] h-[42px] text-white text-[20px] mr-[15px] bg-black"><i class="far fa-envelope"></i></span> <span>support@jano.com</span></a>
+							</div>
+							<div class="xl:w-4/12 lg:w-4/12 w-full flex-[0_0_auto] px-[12px] max-w-full mb-[30px] xl:order-2 lg:order-2">
+								<ul class="flex justify-center social-icon mb-0 pl-0 list-none ">
+									<li><a class=" text-[22px] text-[rgba(0,0,0,0.7)] transition-all duration-[0.3s] ease-[ease-in-out] mx-[13px] my-0 hover:text-[color:var(--prime-two)]" href="#"><i class="fab fa-facebook-square"></i></a></li>
+									<li><a class=" text-[22px] text-[rgba(0,0,0,0.7)] transition-all duration-[0.3s] ease-[ease-in-out] mx-[13px] my-0 hover:text-[color:var(--prime-two)]" href="#"><i class="fab fa-twitter-square"></i></a></li>
+									<li><a class=" text-[22px] text-[rgba(0,0,0,0.7)] transition-all duration-[0.3s] ease-[ease-in-out] mx-[13px] my-0 hover:text-[color:var(--prime-two)]" href="#"><i class="fab fa-linkedin"></i></a></li>
+									<li><a class=" text-[22px] text-[rgba(0,0,0,0.7)] transition-all duration-[0.3s] ease-[ease-in-out] mx-[13px] my-0 hover:text-[color:var(--prime-two)]" href="#"><i class="fab fa-dribbble-square"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div> <!-- /.footer-style-four -->
+
+
+				<button class="scroll-top w-[35px] h-[35px] leading-[35px] fixed z-[99] text-center text-white text-[25px] cursor-pointer hidden transition-all duration-[0.3s] ease-[ease-in-out] rounded-[50%] right-[5px] bottom-5 after:absolute after:z-[-1] after:content-[''] after:h-2.5 after:w-[90%] after:opacity-100 after:left-[5%] after:top-full bg-[var(--prime-ten)] after:bg-[radial-gradient(ellipse_at_center,rgba(0,0,0,0.25)_0%,rgba(0,0,0,0)_80%)]">
+					<i class="bi bi-arrow-up-short"></i>
+				</button>
+				
+				
+			<!-- Optional JavaScript _____________________________ -->
+			<!-- jQuery -->
+			<script src="vendor/jquery.min.js"></script>
+			<!-- Bootstrap JS -->
+			<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+			<!-- WOW js -->
+			<script src="vendor/wow/wow.min.js"></script>
+			<!-- Slick Slider -->
+			<script src="vendor/slick/slick.min.js"></script>
+			<!-- Fancybox -->
+			<script src="vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+			<!-- Lazy -->
+			<script src="vendor/jquery.lazy.min.js"></script>
+			<!-- js Counter -->
+			<script src="vendor/jquery.counterup.min.js"></script>
+			<script src="vendor/jquery.waypoints.min.js"></script>
+			<!-- isotop -->
+			<script src="vendor/isotope.pkgd.min.js"></script>
+			<!-- Nice Select -->
+			<script src="vendor/nice-select/jquery.nice-select.min.js"></script>
+			<!-- validator js -->
+			<script src="vendor/validator.js"></script>
+			<!-- Theme js -->
+			<script src="js/theme.js"></script>
+			</div> <!-- /.main-page-wrapper -->
+		</body>
+	</html>
