@@ -17,7 +17,7 @@ import WhyChoose from "../../components/home-page/home-1/WhyChoose";
 const HomePage = () => {
   return (
     <>
-      <Seo pageTitle="Ceygiri Home" />
+      <Seo pageTitle="Ceygiri LABS" />
       <DefaulHeader />
       {/* <!-- 
 			=============================================
@@ -281,7 +281,7 @@ const HomePage = () => {
                 </p>
                 <p className="text-white opacity-50 fs-15 m0 d-none d-lg-block">
                   © {new Date().getFullYear()} - {new Date().getFullYear() + 1}{" "}
-                  jano inc.
+                  CeygiriLABS Pvt Ltd.
                 </p>
               </div>
               <Footer />
