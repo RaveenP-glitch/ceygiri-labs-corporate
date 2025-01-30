@@ -35,18 +35,27 @@ const MainMenu = () => {
           <li className="d-block d-lg-none">
             <div className="logo">
               <Link href="/" className="d-block">
-                <img src="/images/logo/logo_01.png" alt="" width={95} />
+                <img src="/images/logo/logo_01.png" alt="" width={115} />
               </Link>
             </div>
           </li>
           {/* End li */}
 
-          <li className="nav-item dropdown mega-dropdown-md">
+          <li
+            className={
+              router.pathname === "/" ? "active nav-item" : "nav-item"
+            }
+          >
+            <Link href="/" role="button" className="nav-link">
+              Home
+            </Link>
+          </li>          
+
+          {/* <li className="nav-item dropdown mega-dropdown-md">
             <a
               className="nav-link dropdown-toggle"
               href="#"
               role="button"
-              data-bs-toggle="dropdown"
               data-bs-auto-close="outside"
               aria-expanded="false"
             >
@@ -79,7 +88,7 @@ const MainMenu = () => {
                 </div>
               </li>
             </ul>
-          </li>
+          </li> */}
           {/* End li (home mega menu) */}
 
           <li className="nav-item  dropdown">
@@ -135,6 +144,16 @@ const MainMenu = () => {
             </ul>
           </li>
           {/* End li (pages) */}
+
+          <li
+            className={
+              router.pathname === "/" ? "active nav-item" : "nav-item"
+            }
+          >
+            <Link href="/" role="button" className="nav-link">
+              Services 
+            </Link>
+          </li>
 
           <li className="nav-item dropdown">
             <a
