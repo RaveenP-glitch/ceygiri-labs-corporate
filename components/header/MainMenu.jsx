@@ -4,6 +4,8 @@ import {
   pagesItems,
   portfolioItems,
   blogItems,
+  allServices,
+  pagesItems2,
 } from "../../data/menu";
 
 import { useRouter } from "next/router";
@@ -49,7 +51,17 @@ const MainMenu = () => {
             <Link href="/" role="button" className="nav-link">
               Home
             </Link>
-          </li>          
+          </li>
+
+          <li
+            className={
+              router.pathname === "/about-us" ? "active nav-item" : "nav-item"
+            }
+          >
+            <Link href="/about-us" role="button" className="nav-link">
+              About Us
+            </Link>
+          </li>
 
           {/* <li className="nav-item dropdown mega-dropdown-md">
             <a
@@ -91,7 +103,61 @@ const MainMenu = () => {
           </li> */}
           {/* End li (home mega menu) */}
 
-          <li className="nav-item  dropdown">
+          {/* Services Section */}
+          <li className="nav-item dropdown">
+            <a
+              className="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              data-bs-auto-close="outside"
+              aria-expanded="false"
+            >
+              Services
+            </a>
+            <ul className="dropdown-menu">
+              {allServices.map((item, index) => (
+                <li key={index}>
+                  <Link
+                    href={item.link}
+                    className={`dropdown-item ${isActive(item.link) ? "active" : ""
+                      }`}
+                  >
+                    <span>{item.name}</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </li>
+
+          {/* Services Section */}
+          <li className="nav-item dropdown">
+            <a
+              className="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              data-bs-auto-close="outside"
+              aria-expanded="false"
+            >
+              Pages
+            </a>
+            <ul className="dropdown-menu">
+              {pagesItems2.map((item, index) => (
+                <li key={index}>
+                  <Link
+                    href={item.link}
+                    className={`dropdown-item ${isActive(item.link) ? "active" : ""
+                      }`}
+                  >
+                    <span>{item.name}</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </li>
+
+          {/* <li className="nav-item  dropdown">
             <a
               className="nav-link dropdown-toggle"
               href="#"
@@ -119,9 +185,8 @@ const MainMenu = () => {
                       <li key={i}>
                         <Link
                           href={subMenu.link}
-                          className={`dropdown-item ${
-                            isActive(subMenu.link) ? "active" : ""
-                          }`}
+                          className={`dropdown-item ${isActive(subMenu.link) ? "active" : ""
+                            }`}
                         >
                           <span>{subMenu.title}</span>
                         </Link>
@@ -129,33 +194,13 @@ const MainMenu = () => {
                     ))}
                   </ul>
                 </li>
-              ))}
-
-              <li>
-                <Link href="/pages-menu/pricing" className="dropdown-item">
-                  <span>Pricing</span>
-                </Link>
-              </li>
-              <li>
-                <Link href="/pages-menu/testimonials" className="dropdown-item">
-                  <span>Testimonials</span>
-                </Link>
-              </li>
+              ))}            
             </ul>
-          </li>
+          </li> */}
           {/* End li (pages) */}
 
-          <li
-            className={
-              router.pathname === "/" ? "active nav-item" : "nav-item"
-            }
-          >
-            <Link href="/" role="button" className="nav-link">
-              Services 
-            </Link>
-          </li>
 
-          <li className="nav-item dropdown">
+          {/* <li className="nav-item dropdown">
             <a
               className="nav-link dropdown-toggle"
               href="#"
@@ -180,10 +225,10 @@ const MainMenu = () => {
                 </li>
               ))}
             </ul>
-          </li>
+          </li> */}
           {/* End li (portfolio) */}
 
-          <li className="nav-item dropdown">
+          {/* <li className="nav-item dropdown">
             <a
               className="nav-link dropdown-toggle"
               href="#"
@@ -208,8 +253,28 @@ const MainMenu = () => {
                 </li>
               ))}
             </ul>
-          </li>
+          </li> */}
           {/* End li (blog) */}
+
+          <li
+            className={
+              router.pathname === "/portfolio" ? "active nav-item" : "nav-item"
+            }
+          >
+            <Link href="/portfolio" role="button" className="nav-link">
+              Portfolio
+            </Link>
+          </li>
+
+          <li
+            className={
+              router.pathname === "/blog" ? "active nav-item" : "nav-item"
+            }
+          >
+            <Link href="/blog" role="button" className="nav-link">
+              Blog
+            </Link>
+          </li>
 
           <li
             className={

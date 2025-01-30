@@ -175,6 +175,17 @@ export const pagesItems = [
   },
 ];
 
+export const pagesItems2 = [
+  { name: "Our Team", link: "/our-team" },
+  { name: "FAQs", link: "/faqs" },
+  { name: "Privacy Policy", link: "/privacy-policy" },
+];
+
+export const allServices = [
+  { name: "All Services", link: "/services/all-services" },
+  { name: "Service Details", link: "/services/service-details" },
+];
+
 export const portfolioItems = [
   { name: "Portfolio 01", link: "/portfolio/portfolio-v1" },
   { name: "Portfolio 02", link: "/portfolio/portfolio-v2" },
