@@ -49,7 +49,7 @@ const MainMenu = () => {
             <Link href="/" role="button" className="nav-link">
               Home
             </Link>
-          </li>
+          </li>          
 
           {/* <li className="nav-item dropdown mega-dropdown-md">
             <a
@@ -144,6 +144,16 @@ const MainMenu = () => {
             </ul>
           </li>
           {/* End li (pages) */}
+
+          <li
+            className={
+              router.pathname === "/" ? "active nav-item" : "nav-item"
+            }
+          >
+            <Link href="/" role="button" className="nav-link">
+              Services 
+            </Link>
+          </li>
 
           <li className="nav-item dropdown">
             <a
