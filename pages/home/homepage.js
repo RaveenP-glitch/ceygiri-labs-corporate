@@ -158,12 +158,11 @@ const HomePage = () => {
 				Feature Section Thirty Eight
 			============================================== 
 			*/}
-      <div className="fancy-feature-thirtyEight mt-140 lg-mt-100">
+      {/* <div className="fancy-feature-thirtyEight mt-140 lg-mt-100">
         <div className="container">
           <AppBanner />
         </div>
-        {/* /.container */}
-      </div>
+      </div> */}
       {/* /.fancy-feature-thirtyEight */}
       {/*=====================================================
 				Fancy Short Banner Thirteen
@@ -187,12 +186,11 @@ const HomePage = () => {
                       />
                       <div className="title-style-one">
                         <h2 className="main-title fw-500 tx-dark m0">
-                          Let’s talk with expereince advisors.
+                          Let’s talk with the tech experts.
                         </h2>
                       </div>
                       <p className="fs-20 tx-dark pt-20 m0">
-                        eiusmod tempor incididunt. Ut enim mim veniam, quis
-                        nostrud elit lorem dolor.
+                        Talk to us and see what is possible.
                       </p>
                     </div>
                   </div>
@@ -277,7 +275,7 @@ const HomePage = () => {
                   </Link>
                 </div>
                 <p className="text-white opacity-75 fs-18 mt-15 mb-45 lg-mb-10">
-                  Simplified Digital Solutions.
+                  Transforming Sri Lankan Digital Landscape.
                 </p>
                 <p className="text-white opacity-50 fs-15 m0 d-none d-lg-block">
                   © {new Date().getFullYear()} - {new Date().getFullYear() + 1}{" "}

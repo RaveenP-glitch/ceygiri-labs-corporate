@@ -61,9 +61,17 @@ const Footer = () => {
 
       <div className="col-xl-3 col-lg-4 col-md-5 mb-30">
         <h5 className="footer-title text-white fw-500">Address</h5>
+        <p className="text-white opacity-75 mb-25">
+            231 Meadow Lane
+            Cheyenne, <br /> WY 82001
+            USA 
+        </p>
+        <h5 className="footer-title text-white fw-500">Phone</h5>
+        <p className="text-white opacity-75 mb-5">
+          +94 75 488 1852
+        </p>
         <p className="text-white opacity-75 mb-35">
-          2190 Zinai terrace, Lake view <br />
-          house state, 10 no road.
+          +1 (845) 661 3491
         </p>
         <ul className="d-flex social-icon style-none">
           {socialIcons.map((icon, index) => (

@@ -10,9 +10,9 @@ const Feature = () => {
         </>
       ),
       description: "100% Reliable",
-      icon: "images/icon/icon_100.svg",
-      width: "169",
-      height: "165",
+      icon: "images/icon/icon_156.svg",
+      width: "155",
+      height: "155",
       delay: "100",
     },
     {
@@ -22,10 +22,10 @@ const Feature = () => {
           Tailored Solutions.
         </>
       ),
-      width: "202",
-      height: "170",
-      description: "Claim Support",
-      icon: "images/icon/icon_101.svg",
+      width: "155",
+      height: "155",
+      description: "Highly Customizable",
+      icon: "images/icon/icon_157.svg",
       delay: "200",
     },
     {
@@ -35,10 +35,10 @@ const Feature = () => {
           Customer-Centric <br />  Approach.
         </>
       ),
-      width: "175",
+      width: "165",
       height: "175",
       description: "Consultation",
-      icon: "images/icon/icon_102.svg",
+      icon: "images/icon/icon_159.svg",
       delay: "300",
     },
     {
@@ -48,10 +48,10 @@ const Feature = () => {
           Innovative Technology.
         </>
       ),
-      width: "175",
-      height: "175",
-      description: "Consultation",
-      icon: "images/icon/icon_102.svg",
+      width: "160",
+      height: "160",
+      description: "Stay ahead",
+      icon: "images/icon/icon_160.svg",
       delay: "300",
     },
   ];

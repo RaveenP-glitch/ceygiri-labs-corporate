@@ -177,6 +177,7 @@ export const pagesItems = [
 
 export const pagesItems2 = [
   { name: "Our Team", link: "/our-team" },
+  { name: "Testimonials", link: "/testimonials" },
   { name: "FAQs", link: "/faqs" },
   { name: "Privacy Policy", link: "/privacy-policy" },
 ];
