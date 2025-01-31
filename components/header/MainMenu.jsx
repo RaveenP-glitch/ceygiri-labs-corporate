@@ -276,15 +276,6 @@ const MainMenu = () => {
             </Link>
           </li>
 
-          <li
-            className={
-              router.pathname === "/contact" ? "active nav-item" : "nav-item"
-            }
-          >
-            <Link href="/contact" role="button" className="nav-link">
-              Contact
-            </Link>
-          </li>
           {/* End li (contact) */}
         </ul>
         {/* End ul */}

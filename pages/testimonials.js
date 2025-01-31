@@ -1,9 +1,9 @@
-import Seo from "../../components/common/Seo";
-import DefaulHeader from "../../components/header/DefaulHeader";
-import DefaultFooter from "../../components/footer/DefaultFooter";
-import Testimonial from "../../components/home-page/home-3/Testimonial";
-import Testimonial2 from "../../components/home-page/home-5/Testimonial";
-import Testimonial3 from "../../components/home-page/home-6/Testimonial";
+import Seo from "../components/common/Seo";
+import DefaulHeader from "../components/header/DefaulHeader";
+import DefaultFooter from "../components/footer/DefaultFooter";
+import Testimonial from "../components/home-page/home-3/Testimonial";
+import Testimonial2 from "../components/home-page/home-5/Testimonial";
+import Testimonial3 from "../components/home-page/home-6/Testimonial";
 
 const Testimonials = () => {
   return (
@@ -81,8 +81,17 @@ const Testimonials = () => {
               <div className="col-md-6" data-aos="fade-right">
                 <div className="title-style-five">
                   <h2 className="main-title fw-500 tx-dark">
-                    Check our client lovely words.
+                    Check our clients' lovely words.
                   </h2>
+                  <div className="flex items-center justify-center h-screen">  
+                    <h1 className="text-6xl font-bold">  
+                        <span>It&apos;s </span>  
+                        <span className="text-5xl font-extrabold text-orange-500 rotate-12" style={{ top:"-22px" }}>not</span>  
+                        <div className="text-5xl text-orange-500 mt-1 text-center" style={{ left:"-20px" }}>^</div>  
+                        <span></span>  
+                        <span className="font-bold">impossible</span>  
+                    </h1>  
+                </div>   
                 </div>
                 {/* /.title-style-five */}
                 <div className="mt-120 lg-mt-40 ps-xl-5 ms-xl-5">
@@ -141,7 +150,8 @@ const Testimonials = () => {
 				Feedback Section Two
 			=====================================================
 			*/}
-      <div className="feedback-section-two position-relative pt-150 pb-150 lg-pt-100 lg-pb-100 sm-pt-10 sm-pb-10 wow fadeInUp">
+      
+      {/* <div className="feedback-section-two position-relative pt-150 pb-150 lg-pt-100 lg-pb-100 sm-pt-10 sm-pb-10 wow fadeInUp">
         <div className="container">
           <div className="row">
             <div className="col-xxl-6 col-lg-7 col-md-8 col-sm-10 m-auto">
@@ -167,22 +177,22 @@ const Testimonials = () => {
                   </span>
                   say about us.
                 </h2>
-              </div>
+              </div> */}
               {/* /.title-style-three */}
-            </div>
-          </div>
+            {/* </div>
+          </div> */}
           {/* End .row */}
 
-          <div className="row">
+          {/* <div className="row">
             <div className="col-xl-7 col-lg-9 m-auto">
               <Testimonial3 />
             </div>
-          </div>
+          </div> */}
           {/* End .row */}
-        </div>
+        {/* </div> */}
         {/* End .container */}
 
-        <div className="circle-bg shapes">
+        {/* <div className="circle-bg shapes">
           <img
             src="/images/shape/shape_37.svg"
             alt="shape"
@@ -225,7 +235,7 @@ const Testimonials = () => {
             style={{ width: "55px", height: "55px" }}
           />
         </div>
-      </div>
+      </div> */}
 
       {/* 
         =============================================
