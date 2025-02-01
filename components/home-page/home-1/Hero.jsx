@@ -26,10 +26,10 @@ const Hero1 = () => {
             <h1 className="hero-heading fw-500 tx-dark">
               Empower your <span>Growth</span> with our <span>Services.</span>
             </h1>
-            <p className="text-lg tx-dark mt-45 mb-50 lg-mt-30 lg-mb-40">
+            <p className="text-lg tx-dark mt-45 mb-20 lg-mt-30 lg-mb-20">
               Trust Our Best IT Solutions For Your Business
             </p>
-            <form
+            {/* <form
               className="search-area d-md-inline-flex m-auto"
               onSubmit={handleSubmit}
             >
@@ -48,11 +48,11 @@ const Hero1 = () => {
               <button className="fw-500 text-white tran3s" type="submit">
                 Search
               </button>
-            </form>
+            </form> */}
             {/* End form */}
 
             <div>
-              <div className="approval-info d-inline-flex align-items-center mt-130 lg-mt-80">
+              <div className="approval-info d-inline-flex align-items-center mt-30 lg-mt-30">
                 <img src="/images/icon/icon_99.svg" alt="" className="me-1" />
                 <span>Bringing you tech solutions from the beautiful island of Sri Lanka.</span>
               </div>

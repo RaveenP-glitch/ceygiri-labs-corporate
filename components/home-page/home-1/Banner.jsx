@@ -10,9 +10,9 @@ const Banner = () => {
 
   return (
     <div className="top-banner text-center">
-      <h2 className="tx-dark mb-20">Top Rated Insurance Agency</h2>
+      <h3 className="tx-dark mb-20">A dynamic web design, product development and digital marketing agency in Sri Lanka, where creativity meets endless possibilities for our clients</h3>
       <p className="text-lg tx-dark opacity-75 mb-30 lg-mb-20">
-        “I couldn’t have asked for a better experience with Jano!”
+        “I couldn’t have asked for a better experience with CeygiriLABS!”
       </p>
       <div className="d-inline-flex align-items-center">
         <ul className="d-flex style-none rating">{stars}</ul>

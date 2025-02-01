@@ -3,7 +3,7 @@ import Link from "next/link";
 const links = [
   {
     title: "Privacy & Terms.",
-    href: "/faq",
+    href: "/privacy-policy",
   },
   {
     title: "Contact Us",
@@ -72,9 +72,9 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                ib-themes
+                CeygiriLABS &nbsp;
               </a>
-              inc.
+              Pvt Ltd.
             </p>
           </div>
         </div>

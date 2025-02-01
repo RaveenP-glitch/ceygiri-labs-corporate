@@ -6,39 +6,52 @@ const Feature = () => {
       background: "#fffee7",
       title: (
         <>
-          Regulated by <br /> WICO.
+          Expert Team.
         </>
       ),
       description: "100% Reliable",
-      icon: "images/icon/icon_100.svg",
-      width: "169",
-      height: "165",
+      icon: "images/icon/icon_156.svg",
+      width: "155",
+      height: "155",
       delay: "100",
     },
     {
       background: "#FBF1FF",
       title: (
         <>
-          Get Instant support <br /> all day.
+          Tailored Solutions.
         </>
       ),
-      width: "202",
-      height: "170",
-      description: "Claim Support",
-      icon: "images/icon/icon_101.svg",
+      width: "155",
+      height: "155",
+      description: "Highly Customizable",
+      icon: "images/icon/icon_157.svg",
       delay: "200",
     },
     {
       background: "#EEFBFA",
       title: (
         <>
-          Unbiased advice <br /> from expert.
+          Customer-Centric <br />  Approach.
         </>
       ),
-      width: "175",
+      width: "165",
       height: "175",
       description: "Consultation",
-      icon: "images/icon/icon_102.svg",
+      icon: "images/icon/icon_159.svg",
+      delay: "300",
+    },
+    {
+      background: "#FCE6E6",
+      title: (
+        <>
+          Innovative Technology.
+        </>
+      ),
+      width: "160",
+      height: "160",
+      description: "Stay ahead",
+      icon: "images/icon/icon_160.svg",
       delay: "300",
     },
   ];
@@ -47,13 +60,13 @@ const Feature = () => {
     <>
       {features.map((feature, index) => (
         <div
-          className="col-lg-4 col-sm-6"
+          className="col-lg-3 col-sm-6"
           key={index}
           data-aos="fade-up"
           data-aos-delay={feature.delay}
         >
           <div
-            className={`card-style-fifteen tran3s position-relative mt-35`}
+            className={`card-style-fifteen tran4s position-relative mt-35`}
             style={{ background: feature.background }}
           >
             <h4>{feature.title}</h4>

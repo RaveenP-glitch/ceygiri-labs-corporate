@@ -15,11 +15,11 @@ const IntroAbout = () => {
       id: 2,
       title: "30+",
       cardNo: "card-two",
-      subtitle: "Insurance Item",
+      subtitle: "Projects Completed",
     },
     {
       id: 3,
-      title: "Saller Leads",
+      title: "Seller Leads",
       cardNo: "card-three",
       subtitle: "Who are listing soon",
     },
@@ -47,8 +47,7 @@ const IntroAbout = () => {
               onClick={() => setOpen(true)}
             />
             <p className="tx-dark pt-30 pb-30 md-pb-15" data-aos="fade-up">
-              The team signed <span className="fw-500">~$7,000,000</span> in new
-              business in July. Accelerator has been a large part of that.
+            Last year, we welcomed <span className="fw-500">~12</span> new clients who chose our web development and SEO services, showcasing the growing demand for our innovative solutions.
             </p>
             <h6
               className="fs-20 tx-dark d-inline-block fst-italic position-relative ps-4"

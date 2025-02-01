@@ -1,24 +1,31 @@
 const accordionItems = [
   {
     id: 1,
-    icon: "/images/icon/icon_108.svg",
-    title: "Lowest Price.",
+    icon: "/images/icon/icon_166.svg",
+    title: "Competitive Price.",
     content:
-      "Practice what you learned on realistic lorem quis test questions testing.",
+      "Custom solutions at negotiable rates designed to fit your unique needs.",
   },
   {
     id: 2,
-    icon: "/images/icon/icon_109.svg",
-    title: "Fast Process & Loan",
+    icon: "/images/icon/icon_167.svg",
+    title: "Expertise and Experience",
     content:
-      "Practice what you learned on realistic lorem quis test questions testing.",
+      "Our team consists of seasoned professionals with extensive experience in website development, SEO, content writing, and social media management. We stay updated with industry trends to ensure you receive the best strategies for your online presence.",
   },
   {
     id: 3,
-    icon: "/images/icon/icon_110.svg",
-    title: "Guaranteed Return & Claim",
+    icon: "/images/icon/icon_168.svg",
+    title: "Proven Results",
     content:
-      "Practice what you learned on realistic lorem quis test questions testing.",
+      "Our track record speaks for itself. We have successfully helped numerous clients enhance their online presence, increase engagement, and achieve their business goals. Your success is our ultimate goal!",
+  },
+  {
+    id: 4,
+    icon: "/images/icon/icon_169.svg",
+    title: "Personal Touch",
+    content:
+      "We believe in building lasting relationships with our clients. Our friendly, approachable team is always available to provide support, answer questions, and make adjustments as needed, ensuring you feel valued and supported every step of the way.",
   },
 ];
 

@@ -3,10 +3,9 @@ const columns = [
     title: "Links",
     links: [
       { label: "Home", url: "/" },
-      { label: "Pricing", url: "/" },
-      { label: "About us", url: "/" },
-      { label: "Service", url: "/" },
-      { label: "Blog", url: "/" },
+      { label: "About us", url: "/about-us" },
+      { label: "Services", url: "/services" },
+      { label: "Blog", url: "/blog" },
     ],
   },
   {
@@ -18,16 +17,16 @@ const columns = [
       { label: "Live", url: "/" },
     ],
   },
-  {
-    title: "Products",
-    links: [
-      { label: "Web hosting", url: "/" },
-      { label: "Cloud hosting", url: "/" },
-      { label: "WordPress hosting", url: "/" },
-      { label: "VPS hosting", url: "/" },
-      { label: "Dedicated hosting", url: "/" },
-    ],
-  },
+  // {
+  //   title: "Products",
+  //   links: [
+  //     { label: "Web hosting", url: "/" },
+  //     { label: "Cloud hosting", url: "/" },
+  //     { label: "WordPress hosting", url: "/" },
+  //     { label: "VPS hosting", url: "/" },
+  //     { label: "Dedicated hosting", url: "/" },
+  //   ],
+  // },
 ];
 
 const Footer2 = () => {
